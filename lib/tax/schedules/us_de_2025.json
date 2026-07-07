@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "DE",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Delaware individual income tax brackets, tax year 2025. Same brackets for all filing statuses; first 2,000 USD is exempt (0%). Standard deduction 3,250 USD single / 6,500 USD married-joint.",
+  "standardDeductions": {
+    "SINGLE": 3250.0,
+    "MARRIED_JOINT": 6500.0,
+    "MARRIED_SEPARATE": 3250.0,
+    "HEAD_OF_HOUSEHOLD": 3250.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,     "upper": 2000,  "rate": 0.0 },
+      { "lower": 2000,  "upper": 5000,  "rate": 0.022 },
+      { "lower": 5000,  "upper": 10000, "rate": 0.039 },
+      { "lower": 10000, "upper": 20000, "rate": 0.048 },
+      { "lower": 20000, "upper": 25000, "rate": 0.052 },
+      { "lower": 25000, "upper": 60000, "rate": 0.0555 },
+      { "lower": 60000, "upper": null,  "rate": 0.066 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,     "upper": 2000,  "rate": 0.0 },
+      { "lower": 2000,  "upper": 5000,  "rate": 0.022 },
+      { "lower": 5000,  "upper": 10000, "rate": 0.039 },
+      { "lower": 10000, "upper": 20000, "rate": 0.048 },
+      { "lower": 20000, "upper": 25000, "rate": 0.052 },
+      { "lower": 25000, "upper": 60000, "rate": 0.0555 },
+      { "lower": 60000, "upper": null,  "rate": 0.066 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,     "upper": 2000,  "rate": 0.0 },
+      { "lower": 2000,  "upper": 5000,  "rate": 0.022 },
+      { "lower": 5000,  "upper": 10000, "rate": 0.039 },
+      { "lower": 10000, "upper": 20000, "rate": 0.048 },
+      { "lower": 20000, "upper": 25000, "rate": 0.052 },
+      { "lower": 25000, "upper": 60000, "rate": 0.0555 },
+      { "lower": 60000, "upper": null,  "rate": 0.066 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,     "upper": 2000,  "rate": 0.0 },
+      { "lower": 2000,  "upper": 5000,  "rate": 0.022 },
+      { "lower": 5000,  "upper": 10000, "rate": 0.039 },
+      { "lower": 10000, "upper": 20000, "rate": 0.048 },
+      { "lower": 20000, "upper": 25000, "rate": 0.052 },
+      { "lower": 25000, "upper": 60000, "rate": 0.0555 },
+      { "lower": 60000, "upper": null,  "rate": 0.066 }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "ignite-gig",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ignite GIG — local-first tax set-aside tracker for gig workers. Canada + USA. Your data never leaves your device.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "lucide-react": "^1.23.0",
+    "next": "^16.2.10",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.2",
+    "@types/node": "^26.1.0",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.10",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}

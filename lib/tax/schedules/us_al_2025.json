@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "AL",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Alabama individual income tax, tax year 2025. Married-joint bracket widths are double the single/HoH/MFS widths. Standard deductions shown are the maximum amounts; Alabama's standard deduction phases down as AGI rises and Alabama also allows a federal-income-tax deduction and a personal exemption (not modeled).",
+  "standardDeductions": {
+    "SINGLE": 3000.0,
+    "MARRIED_JOINT": 8500.0,
+    "MARRIED_SEPARATE": 4250.0,
+    "HEAD_OF_HOUSEHOLD": 5200.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,    "upper": 500,  "rate": 0.02 },
+      { "lower": 500,  "upper": 3000, "rate": 0.04 },
+      { "lower": 3000, "upper": null, "rate": 0.05 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,    "upper": 1000, "rate": 0.02 },
+      { "lower": 1000, "upper": 6000, "rate": 0.04 },
+      { "lower": 6000, "upper": null, "rate": 0.05 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,    "upper": 500,  "rate": 0.02 },
+      { "lower": 500,  "upper": 3000, "rate": 0.04 },
+      { "lower": 3000, "upper": null, "rate": 0.05 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,    "upper": 500,  "rate": 0.02 },
+      { "lower": 500,  "upper": 3000, "rate": 0.04 },
+      { "lower": 3000, "upper": null, "rate": 0.05 }
+    ]
+  }
+}

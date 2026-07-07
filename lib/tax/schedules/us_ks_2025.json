@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "KS",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Kansas individual income tax, tax year 2025 (two-rate schedule, K.S.A. 79-32,110). Married-joint uses a 46,000 USD first-bracket ceiling; single/HoH/MFS use 23,000 USD. Brackets are not inflation-indexed.",
+  "standardDeductions": {
+    "SINGLE": 3605.0,
+    "MARRIED_JOINT": 8240.0,
+    "MARRIED_SEPARATE": 4120.0,
+    "HEAD_OF_HOUSEHOLD": 6180.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,     "upper": 23000, "rate": 0.052 },
+      { "lower": 23000, "upper": null,  "rate": 0.0558 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,     "upper": 46000, "rate": 0.052 },
+      { "lower": 46000, "upper": null,  "rate": 0.0558 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,     "upper": 23000, "rate": 0.052 },
+      { "lower": 23000, "upper": null,  "rate": 0.0558 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,     "upper": 23000, "rate": 0.052 },
+      { "lower": 23000, "upper": null,  "rate": 0.0558 }
+    ]
+  }
+}

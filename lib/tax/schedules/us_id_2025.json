@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "ID",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Idaho has a flat 5.3% individual income tax for tax year 2025 (lowered from 5.695% by 2025 HB40). Idaho conforms to the federal standard deduction. A small first tranche of Idaho taxable income is taxed at 0%, but it falls below the standard deduction for virtually all filers and is not modeled separately.",
+  "standardDeductions": {
+    "SINGLE": 15000.0,
+    "MARRIED_JOINT": 30000.0,
+    "MARRIED_SEPARATE": 15000.0,
+    "HEAD_OF_HOUSEHOLD": 22500.0
+  },
+  "brackets": {
+    "SINGLE":            [ { "lower": 0, "upper": null, "rate": 0.053 } ],
+    "MARRIED_JOINT":     [ { "lower": 0, "upper": null, "rate": 0.053 } ],
+    "MARRIED_SEPARATE":  [ { "lower": 0, "upper": null, "rate": 0.053 } ],
+    "HEAD_OF_HOUSEHOLD": [ { "lower": 0, "upper": null, "rate": 0.053 } ]
+  }
+}

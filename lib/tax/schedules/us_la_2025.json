@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "LA",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Louisiana switched from graduated brackets to a flat 3.00% individual income tax effective tax year 2025. Combined personal exemption / standard deduction is 12,500 USD single / 25,000 USD joint for 2025.",
+  "standardDeductions": {
+    "SINGLE": 12500.0,
+    "MARRIED_JOINT": 25000.0,
+    "MARRIED_SEPARATE": 12500.0,
+    "HEAD_OF_HOUSEHOLD": 12500.0
+  },
+  "brackets": {
+    "SINGLE":            [ { "lower": 0, "upper": null, "rate": 0.03 } ],
+    "MARRIED_JOINT":     [ { "lower": 0, "upper": null, "rate": 0.03 } ],
+    "MARRIED_SEPARATE":  [ { "lower": 0, "upper": null, "rate": 0.03 } ],
+    "HEAD_OF_HOUSEHOLD": [ { "lower": 0, "upper": null, "rate": 0.03 } ]
+  }
+}

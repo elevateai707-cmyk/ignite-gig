@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "IA",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Iowa completed its transition to a flat 3.8% individual income tax for tax year 2025. Iowa conforms to the federal standard deduction (matched here).",
+  "standardDeductions": {
+    "SINGLE": 15000.0,
+    "MARRIED_JOINT": 30000.0,
+    "MARRIED_SEPARATE": 15000.0,
+    "HEAD_OF_HOUSEHOLD": 22500.0
+  },
+  "brackets": {
+    "SINGLE":            [ { "lower": 0, "upper": null, "rate": 0.038 } ],
+    "MARRIED_JOINT":     [ { "lower": 0, "upper": null, "rate": 0.038 } ],
+    "MARRIED_SEPARATE":  [ { "lower": 0, "upper": null, "rate": 0.038 } ],
+    "HEAD_OF_HOUSEHOLD": [ { "lower": 0, "upper": null, "rate": 0.038 } ]
+  }
+}

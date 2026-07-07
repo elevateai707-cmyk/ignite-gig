@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "VT",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Vermont individual income tax, tax year 2025 (four-bracket schedule, 3.35%-8.75%). Single, MFS, Married-Joint, and Head-of-Household each use distinct bracket widths. Vermont also has a 5,100 USD personal exemption (not modeled).",
+  "standardDeductions": {
+    "SINGLE": 7000.0,
+    "MARRIED_JOINT": 14050.0,
+    "MARRIED_SEPARATE": 7000.0,
+    "HEAD_OF_HOUSEHOLD": 10550.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,      "upper": 47900,  "rate": 0.0335 },
+      { "lower": 47900,  "upper": 116000, "rate": 0.066 },
+      { "lower": 116000, "upper": 242000, "rate": 0.076 },
+      { "lower": 242000, "upper": null,   "rate": 0.0875 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,      "upper": 79950,  "rate": 0.0335 },
+      { "lower": 79950,  "upper": 193300, "rate": 0.066 },
+      { "lower": 193300, "upper": 294600, "rate": 0.076 },
+      { "lower": 294600, "upper": null,   "rate": 0.0875 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,      "upper": 39975,  "rate": 0.0335 },
+      { "lower": 39975,  "upper": 96650,  "rate": 0.066 },
+      { "lower": 96650,  "upper": 147300, "rate": 0.076 },
+      { "lower": 147300, "upper": null,   "rate": 0.0875 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,      "upper": 64200,  "rate": 0.0335 },
+      { "lower": 64200,  "upper": 165700, "rate": 0.066 },
+      { "lower": 165700, "upper": 268300, "rate": 0.076 },
+      { "lower": 268300, "upper": null,   "rate": 0.0875 }
+    ]
+  }
+}

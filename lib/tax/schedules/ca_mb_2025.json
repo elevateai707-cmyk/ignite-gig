@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "country": "CA",
+  "region": "MB",
+  "year": 2025,
+  "currency": "CAD",
+  "notes": "Manitoba provincial tax brackets, 2025 (CRA T1 Manitoba). Brackets indexed for 2025. Basic personal amount used as the standard deduction proxy (~15,780 CAD).",
+  "standardDeductions": {
+    "SINGLE": 15780.0,
+    "MARRIED_JOINT": 15780.0,
+    "MARRIED_SEPARATE": 15780.0,
+    "HEAD_OF_HOUSEHOLD": 15780.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,       "upper": 47564,  "rate": 0.108 },
+      { "lower": 47564,   "upper": 101200, "rate": 0.1275 },
+      { "lower": 101200,  "upper": null,   "rate": 0.174 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,       "upper": 47564,  "rate": 0.108 },
+      { "lower": 47564,   "upper": 101200, "rate": 0.1275 },
+      { "lower": 101200,  "upper": null,   "rate": 0.174 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,       "upper": 47564,  "rate": 0.108 },
+      { "lower": 47564,   "upper": 101200, "rate": 0.1275 },
+      { "lower": 101200,  "upper": null,   "rate": 0.174 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,       "upper": 47564,  "rate": 0.108 },
+      { "lower": 47564,   "upper": 101200, "rate": 0.1275 },
+      { "lower": 101200,  "upper": null,   "rate": 0.174 }
+    ]
+  }
+}

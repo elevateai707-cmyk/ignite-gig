@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "RI",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Rhode Island individual income tax, tax year 2025 (RI Division of Taxation, inflation-indexed uniform rate schedule). Same brackets for all filing statuses. Standard deduction phases out above ~254,250 USD (not modeled).",
+  "standardDeductions": {
+    "SINGLE": 10900.0,
+    "MARRIED_JOINT": 21800.0,
+    "MARRIED_SEPARATE": 10900.0,
+    "HEAD_OF_HOUSEHOLD": 16350.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,      "upper": 79900,  "rate": 0.0375 },
+      { "lower": 79900,  "upper": 181650, "rate": 0.0475 },
+      { "lower": 181650, "upper": null,   "rate": 0.0599 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,      "upper": 79900,  "rate": 0.0375 },
+      { "lower": 79900,  "upper": 181650, "rate": 0.0475 },
+      { "lower": 181650, "upper": null,   "rate": 0.0599 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,      "upper": 79900,  "rate": 0.0375 },
+      { "lower": 79900,  "upper": 181650, "rate": 0.0475 },
+      { "lower": 181650, "upper": null,   "rate": 0.0599 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,      "upper": 79900,  "rate": 0.0375 },
+      { "lower": 79900,  "upper": 181650, "rate": 0.0475 },
+      { "lower": 181650, "upper": null,   "rate": 0.0599 }
+    ]
+  }
+}

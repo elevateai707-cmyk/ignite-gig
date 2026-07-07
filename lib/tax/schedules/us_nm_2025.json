@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "NM",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "New Mexico individual income tax, tax year 2025 (restructured to six brackets, NMSA 7-2-7). Married-Joint and Head-of-Household share one schedule; single/MFS use the single schedule. Conforms to the federal standard deduction.",
+  "standardDeductions": {
+    "SINGLE": 15000.0,
+    "MARRIED_JOINT": 30000.0,
+    "MARRIED_SEPARATE": 15000.0,
+    "HEAD_OF_HOUSEHOLD": 22500.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,      "upper": 5500,   "rate": 0.015 },
+      { "lower": 5500,   "upper": 16500,  "rate": 0.032 },
+      { "lower": 16500,  "upper": 33500,  "rate": 0.043 },
+      { "lower": 33500,  "upper": 66500,  "rate": 0.047 },
+      { "lower": 66500,  "upper": 210000, "rate": 0.049 },
+      { "lower": 210000, "upper": null,   "rate": 0.059 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,      "upper": 8000,   "rate": 0.015 },
+      { "lower": 8000,   "upper": 25000,  "rate": 0.032 },
+      { "lower": 25000,  "upper": 50000,  "rate": 0.043 },
+      { "lower": 50000,  "upper": 100000, "rate": 0.047 },
+      { "lower": 100000, "upper": 315000, "rate": 0.049 },
+      { "lower": 315000, "upper": null,   "rate": 0.059 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,      "upper": 5500,   "rate": 0.015 },
+      { "lower": 5500,   "upper": 16500,  "rate": 0.032 },
+      { "lower": 16500,  "upper": 33500,  "rate": 0.043 },
+      { "lower": 33500,  "upper": 66500,  "rate": 0.047 },
+      { "lower": 66500,  "upper": 210000, "rate": 0.049 },
+      { "lower": 210000, "upper": null,   "rate": 0.059 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,      "upper": 8000,   "rate": 0.015 },
+      { "lower": 8000,   "upper": 25000,  "rate": 0.032 },
+      { "lower": 25000,  "upper": 50000,  "rate": 0.043 },
+      { "lower": 50000,  "upper": 100000, "rate": 0.047 },
+      { "lower": 100000, "upper": 315000, "rate": 0.049 },
+      { "lower": 315000, "upper": null,   "rate": 0.059 }
+    ]
+  }
+}

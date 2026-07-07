@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "TX",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Texas has no state income tax. The engine still requires a schedule shape; all rates are 0.",
+  "standardDeductions": {
+    "SINGLE": 0.0,
+    "MARRIED_JOINT": 0.0,
+    "MARRIED_SEPARATE": 0.0,
+    "HEAD_OF_HOUSEHOLD": 0.0
+  },
+  "brackets": {
+    "SINGLE":            [ { "lower": 0, "upper": null, "rate": 0.0 } ],
+    "MARRIED_JOINT":     [ { "lower": 0, "upper": null, "rate": 0.0 } ],
+    "MARRIED_SEPARATE":  [ { "lower": 0, "upper": null, "rate": 0.0 } ],
+    "HEAD_OF_HOUSEHOLD": [ { "lower": 0, "upper": null, "rate": 0.0 } ]
+  }
+}

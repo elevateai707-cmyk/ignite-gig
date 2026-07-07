@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "MI",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Michigan has a flat 4.25% individual income tax (Income Tax Act MCL 206.51). The 2023 temporary reduction to 4.05% lapsed for 2024+ per the AG opinion. Personal exemption used as the standard deduction proxy ($5,800 for 2025).",
+  "standardDeductions": {
+    "SINGLE": 5800.0,
+    "MARRIED_JOINT": 11600.0,
+    "MARRIED_SEPARATE": 5800.0,
+    "HEAD_OF_HOUSEHOLD": 5800.0
+  },
+  "brackets": {
+    "SINGLE":            [ { "lower": 0, "upper": null, "rate": 0.0425 } ],
+    "MARRIED_JOINT":     [ { "lower": 0, "upper": null, "rate": 0.0425 } ],
+    "MARRIED_SEPARATE":  [ { "lower": 0, "upper": null, "rate": 0.0425 } ],
+    "HEAD_OF_HOUSEHOLD": [ { "lower": 0, "upper": null, "rate": 0.0425 } ]
+  }
+}

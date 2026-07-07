@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "ND",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "North Dakota individual income tax, tax year 2025 (three-bracket schedule with a 0% first bracket; top rate 2.5%). North Dakota taxable income starts from federal taxable income, so the federal standard deduction is reflected here. Each filing status has distinct bracket widths.",
+  "standardDeductions": {
+    "SINGLE": 15000.0,
+    "MARRIED_JOINT": 30000.0,
+    "MARRIED_SEPARATE": 15000.0,
+    "HEAD_OF_HOUSEHOLD": 22500.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,      "upper": 48475,  "rate": 0.0 },
+      { "lower": 48475,  "upper": 244825, "rate": 0.0195 },
+      { "lower": 244825, "upper": null,   "rate": 0.025 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,      "upper": 80975,  "rate": 0.0 },
+      { "lower": 80975,  "upper": 298075, "rate": 0.0195 },
+      { "lower": 298075, "upper": null,   "rate": 0.025 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,      "upper": 40475,  "rate": 0.0 },
+      { "lower": 40475,  "upper": 149025, "rate": 0.0195 },
+      { "lower": 149025, "upper": null,   "rate": 0.025 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,      "upper": 64950,  "rate": 0.0 },
+      { "lower": 64950,  "upper": 271450, "rate": 0.0195 },
+      { "lower": 271450, "upper": null,   "rate": 0.025 }
+    ]
+  }
+}

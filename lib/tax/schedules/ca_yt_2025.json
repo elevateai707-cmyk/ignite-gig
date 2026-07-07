@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "country": "CA",
+  "region": "YT",
+  "year": 2025,
+  "currency": "CAD",
+  "notes": "Yukon tax brackets, tax year 2025 (CRA T1). Yukon uses the federal bracket thresholds for its first three brackets. Basic personal amount approximated as the federal maximum (16,129 CAD); the Yukon BPA mirrors the federal BPA and phases down for high earners (not modeled here).",
+  "standardDeductions": {
+    "SINGLE": 16129.0,
+    "MARRIED_JOINT": 16129.0,
+    "MARRIED_SEPARATE": 16129.0,
+    "HEAD_OF_HOUSEHOLD": 16129.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,       "upper": 57375,    "rate": 0.064 },
+      { "lower": 57375,   "upper": 114750,   "rate": 0.09 },
+      { "lower": 114750,  "upper": 177882,   "rate": 0.109 },
+      { "lower": 177882,  "upper": 500000,   "rate": 0.128 },
+      { "lower": 500000,  "upper": null,     "rate": 0.15 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,       "upper": 57375,    "rate": 0.064 },
+      { "lower": 57375,   "upper": 114750,   "rate": 0.09 },
+      { "lower": 114750,  "upper": 177882,   "rate": 0.109 },
+      { "lower": 177882,  "upper": 500000,   "rate": 0.128 },
+      { "lower": 500000,  "upper": null,     "rate": 0.15 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,       "upper": 57375,    "rate": 0.064 },
+      { "lower": 57375,   "upper": 114750,   "rate": 0.09 },
+      { "lower": 114750,  "upper": 177882,   "rate": 0.109 },
+      { "lower": 177882,  "upper": 500000,   "rate": 0.128 },
+      { "lower": 500000,  "upper": null,     "rate": 0.15 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,       "upper": 57375,    "rate": 0.064 },
+      { "lower": 57375,   "upper": 114750,   "rate": 0.09 },
+      { "lower": 114750,  "upper": 177882,   "rate": 0.109 },
+      { "lower": 177882,  "upper": 500000,   "rate": 0.128 },
+      { "lower": 500000,  "upper": null,     "rate": 0.15 }
+    ]
+  }
+}

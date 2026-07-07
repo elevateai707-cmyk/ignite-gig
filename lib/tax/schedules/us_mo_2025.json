@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "MO",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Missouri individual income tax brackets, tax year 2025 (MO DOR, inflation-indexed; top rate 4.7%). First 1,313 USD is exempt (0%). Same brackets for all filing statuses. Missouri conforms to the federal standard deduction (matched here).",
+  "standardDeductions": {
+    "SINGLE": 15000.0,
+    "MARRIED_JOINT": 30000.0,
+    "MARRIED_SEPARATE": 15000.0,
+    "HEAD_OF_HOUSEHOLD": 22500.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,     "upper": 1313,  "rate": 0.0 },
+      { "lower": 1313,  "upper": 2626,  "rate": 0.02 },
+      { "lower": 2626,  "upper": 3939,  "rate": 0.025 },
+      { "lower": 3939,  "upper": 5252,  "rate": 0.03 },
+      { "lower": 5252,  "upper": 6565,  "rate": 0.035 },
+      { "lower": 6565,  "upper": 7878,  "rate": 0.04 },
+      { "lower": 7878,  "upper": 9191,  "rate": 0.045 },
+      { "lower": 9191,  "upper": null,  "rate": 0.047 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,     "upper": 1313,  "rate": 0.0 },
+      { "lower": 1313,  "upper": 2626,  "rate": 0.02 },
+      { "lower": 2626,  "upper": 3939,  "rate": 0.025 },
+      { "lower": 3939,  "upper": 5252,  "rate": 0.03 },
+      { "lower": 5252,  "upper": 6565,  "rate": 0.035 },
+      { "lower": 6565,  "upper": 7878,  "rate": 0.04 },
+      { "lower": 7878,  "upper": 9191,  "rate": 0.045 },
+      { "lower": 9191,  "upper": null,  "rate": 0.047 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,     "upper": 1313,  "rate": 0.0 },
+      { "lower": 1313,  "upper": 2626,  "rate": 0.02 },
+      { "lower": 2626,  "upper": 3939,  "rate": 0.025 },
+      { "lower": 3939,  "upper": 5252,  "rate": 0.03 },
+      { "lower": 5252,  "upper": 6565,  "rate": 0.035 },
+      { "lower": 6565,  "upper": 7878,  "rate": 0.04 },
+      { "lower": 7878,  "upper": 9191,  "rate": 0.045 },
+      { "lower": 9191,  "upper": null,  "rate": 0.047 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,     "upper": 1313,  "rate": 0.0 },
+      { "lower": 1313,  "upper": 2626,  "rate": 0.02 },
+      { "lower": 2626,  "upper": 3939,  "rate": 0.025 },
+      { "lower": 3939,  "upper": 5252,  "rate": 0.03 },
+      { "lower": 5252,  "upper": 6565,  "rate": 0.035 },
+      { "lower": 6565,  "upper": 7878,  "rate": 0.04 },
+      { "lower": 7878,  "upper": 9191,  "rate": 0.045 },
+      { "lower": 9191,  "upper": null,  "rate": 0.047 }
+    ]
+  }
+}

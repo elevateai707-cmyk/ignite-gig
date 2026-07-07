@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "AR",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Arkansas individual income tax, tax year 2025 (top rate reduced to 3.9%). Models the marginal-rate schedule for net income up to 92,300 USD; Arkansas applies a bracket-adjustment ('minus adjustment') smoothing formula and a separate low-income table that are not modeled exactly. Same brackets for all filing statuses.",
+  "standardDeductions": {
+    "SINGLE": 2470.0,
+    "MARRIED_JOINT": 4940.0,
+    "MARRIED_SEPARATE": 2470.0,
+    "HEAD_OF_HOUSEHOLD": 2470.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,     "upper": 5500,  "rate": 0.0 },
+      { "lower": 5500,  "upper": 10900, "rate": 0.02 },
+      { "lower": 10900, "upper": 15600, "rate": 0.03 },
+      { "lower": 15600, "upper": 25700, "rate": 0.034 },
+      { "lower": 25700, "upper": null,  "rate": 0.039 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,     "upper": 5500,  "rate": 0.0 },
+      { "lower": 5500,  "upper": 10900, "rate": 0.02 },
+      { "lower": 10900, "upper": 15600, "rate": 0.03 },
+      { "lower": 15600, "upper": 25700, "rate": 0.034 },
+      { "lower": 25700, "upper": null,  "rate": 0.039 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,     "upper": 5500,  "rate": 0.0 },
+      { "lower": 5500,  "upper": 10900, "rate": 0.02 },
+      { "lower": 10900, "upper": 15600, "rate": 0.03 },
+      { "lower": 15600, "upper": 25700, "rate": 0.034 },
+      { "lower": 25700, "upper": null,  "rate": 0.039 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,     "upper": 5500,  "rate": 0.0 },
+      { "lower": 5500,  "upper": 10900, "rate": 0.02 },
+      { "lower": 10900, "upper": 15600, "rate": 0.03 },
+      { "lower": 15600, "upper": 25700, "rate": 0.034 },
+      { "lower": 25700, "upper": null,  "rate": 0.039 }
+    ]
+  }
+}

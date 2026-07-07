@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "WI",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Wisconsin individual income tax brackets, tax year 2025 (WI DOR; the 2025-27 budget expanded the second bracket). Single and Head-of-Household share the same brackets. Standard deductions shown are the maximum amounts; Wisconsin's sliding-scale standard deduction phases out as income rises (not modeled).",
+  "standardDeductions": {
+    "SINGLE": 13560.0,
+    "MARRIED_JOINT": 25110.0,
+    "MARRIED_SEPARATE": 11930.0,
+    "HEAD_OF_HOUSEHOLD": 17520.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,      "upper": 14680,   "rate": 0.035 },
+      { "lower": 14680,  "upper": 50480,   "rate": 0.044 },
+      { "lower": 50480,  "upper": 323290,  "rate": 0.053 },
+      { "lower": 323290, "upper": null,    "rate": 0.0765 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,      "upper": 19580,   "rate": 0.035 },
+      { "lower": 19580,  "upper": 67300,   "rate": 0.044 },
+      { "lower": 67300,  "upper": 431060,  "rate": 0.053 },
+      { "lower": 431060, "upper": null,    "rate": 0.0765 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,      "upper": 9790,    "rate": 0.035 },
+      { "lower": 9790,   "upper": 33650,   "rate": 0.044 },
+      { "lower": 33650,  "upper": 215530,  "rate": 0.053 },
+      { "lower": 215530, "upper": null,    "rate": 0.0765 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,      "upper": 14680,   "rate": 0.035 },
+      { "lower": 14680,  "upper": 50480,   "rate": 0.044 },
+      { "lower": 50480,  "upper": 323290,  "rate": 0.053 },
+      { "lower": 323290, "upper": null,    "rate": 0.0765 }
+    ]
+  }
+}

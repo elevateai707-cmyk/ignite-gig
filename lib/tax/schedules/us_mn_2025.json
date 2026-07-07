@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "MN",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Minnesota individual income tax brackets, tax year 2025 (MN Dept. of Revenue, inflation-adjusted). Brackets and standard deductions are filing-status specific. Excludes the 1% high-earner net investment income surtax.",
+  "standardDeductions": {
+    "SINGLE": 14950.0,
+    "MARRIED_JOINT": 29900.0,
+    "MARRIED_SEPARATE": 14950.0,
+    "HEAD_OF_HOUSEHOLD": 22500.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,      "upper": 32570,   "rate": 0.0535 },
+      { "lower": 32570,  "upper": 106990,  "rate": 0.068 },
+      { "lower": 106990, "upper": 198630,  "rate": 0.0785 },
+      { "lower": 198630, "upper": null,    "rate": 0.0985 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,      "upper": 47620,   "rate": 0.0535 },
+      { "lower": 47620,  "upper": 189180,  "rate": 0.068 },
+      { "lower": 189180, "upper": 330410,  "rate": 0.0785 },
+      { "lower": 330410, "upper": null,    "rate": 0.0985 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,      "upper": 23810,   "rate": 0.0535 },
+      { "lower": 23810,  "upper": 94590,   "rate": 0.068 },
+      { "lower": 94590,  "upper": 165205,  "rate": 0.0785 },
+      { "lower": 165205, "upper": null,    "rate": 0.0985 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,      "upper": 40100,   "rate": 0.0535 },
+      { "lower": 40100,  "upper": 161130,  "rate": 0.068 },
+      { "lower": 161130, "upper": 264050,  "rate": 0.0785 },
+      { "lower": 264050, "upper": null,    "rate": 0.0985 }
+    ]
+  }
+}

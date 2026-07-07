@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "MA",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Massachusetts: 5% on ordinary income, plus 4% surtax on income above $1,083,150 (2025, indexed). Standard exemption used as the deduction proxy.",
+  "standardDeductions": {
+    "SINGLE": 4400.0,
+    "MARRIED_JOINT": 8800.0,
+    "MARRIED_SEPARATE": 4400.0,
+    "HEAD_OF_HOUSEHOLD": 6800.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,        "upper": 1083150, "rate": 0.05 },
+      { "lower": 1083150,  "upper": null,    "rate": 0.09 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,        "upper": 1083150, "rate": 0.05 },
+      { "lower": 1083150,  "upper": null,    "rate": 0.09 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,        "upper": 1083150, "rate": 0.05 },
+      { "lower": 1083150,  "upper": null,    "rate": 0.09 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,        "upper": 1083150, "rate": 0.05 },
+      { "lower": 1083150,  "upper": null,    "rate": 0.09 }
+    ]
+  }
+}

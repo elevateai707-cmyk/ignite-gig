@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "HI",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Hawaii individual income tax, tax year 2025 (twelve-bracket schedule, 1.4%-11%). Single/MFS use Schedule I; Married-Joint uses double the single bracket widths. Head-of-Household is approximated with the single schedule here (Hawaii's actual HoH widths fall between single and joint). Hawaii also has a 1,144 USD personal exemption per person (not modeled).",
+  "standardDeductions": {
+    "SINGLE": 4400.0,
+    "MARRIED_JOINT": 8800.0,
+    "MARRIED_SEPARATE": 4400.0,
+    "HEAD_OF_HOUSEHOLD": 6424.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,      "upper": 9600,   "rate": 0.014 },
+      { "lower": 9600,   "upper": 14400,  "rate": 0.032 },
+      { "lower": 14400,  "upper": 19200,  "rate": 0.055 },
+      { "lower": 19200,  "upper": 24000,  "rate": 0.064 },
+      { "lower": 24000,  "upper": 36000,  "rate": 0.068 },
+      { "lower": 36000,  "upper": 48000,  "rate": 0.072 },
+      { "lower": 48000,  "upper": 125000, "rate": 0.076 },
+      { "lower": 125000, "upper": 175000, "rate": 0.079 },
+      { "lower": 175000, "upper": 225000, "rate": 0.0825 },
+      { "lower": 225000, "upper": 275000, "rate": 0.09 },
+      { "lower": 275000, "upper": 325000, "rate": 0.10 },
+      { "lower": 325000, "upper": null,   "rate": 0.11 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,      "upper": 19200,  "rate": 0.014 },
+      { "lower": 19200,  "upper": 28800,  "rate": 0.032 },
+      { "lower": 28800,  "upper": 38400,  "rate": 0.055 },
+      { "lower": 38400,  "upper": 48000,  "rate": 0.064 },
+      { "lower": 48000,  "upper": 72000,  "rate": 0.068 },
+      { "lower": 72000,  "upper": 96000,  "rate": 0.072 },
+      { "lower": 96000,  "upper": 250000, "rate": 0.076 },
+      { "lower": 250000, "upper": 350000, "rate": 0.079 },
+      { "lower": 350000, "upper": 450000, "rate": 0.0825 },
+      { "lower": 450000, "upper": 550000, "rate": 0.09 },
+      { "lower": 550000, "upper": 650000, "rate": 0.10 },
+      { "lower": 650000, "upper": null,   "rate": 0.11 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,      "upper": 9600,   "rate": 0.014 },
+      { "lower": 9600,   "upper": 14400,  "rate": 0.032 },
+      { "lower": 14400,  "upper": 19200,  "rate": 0.055 },
+      { "lower": 19200,  "upper": 24000,  "rate": 0.064 },
+      { "lower": 24000,  "upper": 36000,  "rate": 0.068 },
+      { "lower": 36000,  "upper": 48000,  "rate": 0.072 },
+      { "lower": 48000,  "upper": 125000, "rate": 0.076 },
+      { "lower": 125000, "upper": 175000, "rate": 0.079 },
+      { "lower": 175000, "upper": 225000, "rate": 0.0825 },
+      { "lower": 225000, "upper": 275000, "rate": 0.09 },
+      { "lower": 275000, "upper": 325000, "rate": 0.10 },
+      { "lower": 325000, "upper": null,   "rate": 0.11 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,      "upper": 9600,   "rate": 0.014 },
+      { "lower": 9600,   "upper": 14400,  "rate": 0.032 },
+      { "lower": 14400,  "upper": 19200,  "rate": 0.055 },
+      { "lower": 19200,  "upper": 24000,  "rate": 0.064 },
+      { "lower": 24000,  "upper": 36000,  "rate": 0.068 },
+      { "lower": 36000,  "upper": 48000,  "rate": 0.072 },
+      { "lower": 48000,  "upper": 125000, "rate": 0.076 },
+      { "lower": 125000, "upper": 175000, "rate": 0.079 },
+      { "lower": 175000, "upper": 225000, "rate": 0.0825 },
+      { "lower": 225000, "upper": 275000, "rate": 0.09 },
+      { "lower": 275000, "upper": 325000, "rate": 0.10 },
+      { "lower": 325000, "upper": null,   "rate": 0.11 }
+    ]
+  }
+}

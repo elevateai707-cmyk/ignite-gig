@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "IL",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Illinois has a flat 4.95% individual income tax. Personal exemption used as the standard deduction proxy (2,775 USD per filer, doubled for joint).",
+  "standardDeductions": {
+    "SINGLE": 2775.0,
+    "MARRIED_JOINT": 5550.0,
+    "MARRIED_SEPARATE": 2775.0,
+    "HEAD_OF_HOUSEHOLD": 2775.0
+  },
+  "brackets": {
+    "SINGLE":            [ { "lower": 0, "upper": null, "rate": 0.0495 } ],
+    "MARRIED_JOINT":     [ { "lower": 0, "upper": null, "rate": 0.0495 } ],
+    "MARRIED_SEPARATE":  [ { "lower": 0, "upper": null, "rate": 0.0495 } ],
+    "HEAD_OF_HOUSEHOLD": [ { "lower": 0, "upper": null, "rate": 0.0495 } ]
+  }
+}

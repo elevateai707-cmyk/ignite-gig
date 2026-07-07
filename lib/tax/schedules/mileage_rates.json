@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "generated": "2026-05-27",
+  "notes": "IRS standard mileage rates (US). 2025 business rate per Rev. Proc. 2024-46. Canadian CRA per-km rates are converted to per-mile using 1 mi = 1.60934 km. Rates expressed in USD; CAD figures are nominal CAD/mile for convenience.",
+  "rates": [
+    { "country": "US", "region": "", "year": 2024, "business": 0.67, "medical": 0.21, "charity": 0.14 },
+    { "country": "US", "region": "", "year": 2025, "business": 0.70, "medical": 0.21, "charity": 0.14 },
+    { "country": "CA", "region": "", "year": 2024, "business": 1.13, "medical": 0.0,  "charity": 0.0 },
+    { "country": "CA", "region": "", "year": 2025, "business": 1.13, "medical": 0.0,  "charity": 0.0 }
+  ]
+}

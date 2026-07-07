@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "country": "CA",
+  "region": "AB",
+  "year": 2025,
+  "currency": "CAD",
+  "notes": "Alberta provincial tax brackets, 2025 (Government of Alberta — adds the new 8% bracket below $60,000 effective Jan 1, 2025). Basic personal amount approximated as the standard deduction.",
+  "standardDeductions": {
+    "SINGLE": 22323.0,
+    "MARRIED_JOINT": 22323.0,
+    "MARRIED_SEPARATE": 22323.0,
+    "HEAD_OF_HOUSEHOLD": 22323.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,       "upper": 60000,   "rate": 0.08 },
+      { "lower": 60000,   "upper": 151234,  "rate": 0.10 },
+      { "lower": 151234,  "upper": 181481,  "rate": 0.12 },
+      { "lower": 181481,  "upper": 241974,  "rate": 0.13 },
+      { "lower": 241974,  "upper": 362961,  "rate": 0.14 },
+      { "lower": 362961,  "upper": null,    "rate": 0.15 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,       "upper": 60000,   "rate": 0.08 },
+      { "lower": 60000,   "upper": 151234,  "rate": 0.10 },
+      { "lower": 151234,  "upper": 181481,  "rate": 0.12 },
+      { "lower": 181481,  "upper": 241974,  "rate": 0.13 },
+      { "lower": 241974,  "upper": 362961,  "rate": 0.14 },
+      { "lower": 362961,  "upper": null,    "rate": 0.15 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,       "upper": 60000,   "rate": 0.08 },
+      { "lower": 60000,   "upper": 151234,  "rate": 0.10 },
+      { "lower": 151234,  "upper": 181481,  "rate": 0.12 },
+      { "lower": 181481,  "upper": 241974,  "rate": 0.13 },
+      { "lower": 241974,  "upper": 362961,  "rate": 0.14 },
+      { "lower": 362961,  "upper": null,    "rate": 0.15 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,       "upper": 60000,   "rate": 0.08 },
+      { "lower": 60000,   "upper": 151234,  "rate": 0.10 },
+      { "lower": 151234,  "upper": 181481,  "rate": 0.12 },
+      { "lower": 181481,  "upper": 241974,  "rate": 0.13 },
+      { "lower": 241974,  "upper": 362961,  "rate": 0.14 },
+      { "lower": 362961,  "upper": null,    "rate": 0.15 }
+    ]
+  }
+}

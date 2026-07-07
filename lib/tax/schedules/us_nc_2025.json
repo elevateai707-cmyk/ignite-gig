@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "NC",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "North Carolina has a flat 4.25% individual income tax for 2025 (NCDOR; scheduled to continue reducing in subsequent years per S.L. 2023-134). Standard deduction per NCDOR 2025 instructions.",
+  "standardDeductions": {
+    "SINGLE": 12750.0,
+    "MARRIED_JOINT": 25500.0,
+    "MARRIED_SEPARATE": 12750.0,
+    "HEAD_OF_HOUSEHOLD": 19125.0
+  },
+  "brackets": {
+    "SINGLE":            [ { "lower": 0, "upper": null, "rate": 0.0425 } ],
+    "MARRIED_JOINT":     [ { "lower": 0, "upper": null, "rate": 0.0425 } ],
+    "MARRIED_SEPARATE":  [ { "lower": 0, "upper": null, "rate": 0.0425 } ],
+    "HEAD_OF_HOUSEHOLD": [ { "lower": 0, "upper": null, "rate": 0.0425 } ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "OR",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Oregon individual income tax brackets, tax year 2025 (Form OR-40). Single and Married-Separate use the single bracket widths; Married-Joint and Head-of-Household use the joint bracket widths. Excludes local Portland Metro / Multnomah County taxes.",
+  "standardDeductions": {
+    "SINGLE": 2835.0,
+    "MARRIED_JOINT": 5670.0,
+    "MARRIED_SEPARATE": 2835.0,
+    "HEAD_OF_HOUSEHOLD": 4560.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,      "upper": 4400,    "rate": 0.0475 },
+      { "lower": 4400,   "upper": 11100,   "rate": 0.0675 },
+      { "lower": 11100,  "upper": 125000,  "rate": 0.0875 },
+      { "lower": 125000, "upper": null,    "rate": 0.099 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,      "upper": 8800,    "rate": 0.0475 },
+      { "lower": 8800,   "upper": 22200,   "rate": 0.0675 },
+      { "lower": 22200,  "upper": 250000,  "rate": 0.0875 },
+      { "lower": 250000, "upper": null,    "rate": 0.099 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,      "upper": 4400,    "rate": 0.0475 },
+      { "lower": 4400,   "upper": 11100,   "rate": 0.0675 },
+      { "lower": 11100,  "upper": 125000,  "rate": 0.0875 },
+      { "lower": 125000, "upper": null,    "rate": 0.099 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,      "upper": 8800,    "rate": 0.0475 },
+      { "lower": 8800,   "upper": 22200,   "rate": 0.0675 },
+      { "lower": 22200,  "upper": 250000,  "rate": 0.0875 },
+      { "lower": 250000, "upper": null,    "rate": 0.099 }
+    ]
+  }
+}

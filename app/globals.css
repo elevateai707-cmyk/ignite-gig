@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0a0a0a;
+  --color-surface: #141414;
+  --color-card: #1a1a1a;
+  --color-raised: #242424;
+  --color-line: #2a2a2a;
+  --color-edge: #333333;
+  --color-volt: #ccff00;
+  --color-volt-dim: #99bf00;
+  --color-danger: #ff4444;
+  --color-paper: #ffffff;
+  --color-body: #b0b0b0;
+  --color-dim: #808080;
+
+  --font-display: var(--font-barlow-condensed), "Arial Narrow", sans-serif;
+  --font-sans: var(--font-barlow), system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+}
+
+html {
+  background: var(--color-ink);
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-ink);
+  color: var(--color-paper);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  /* Keep content clear of the iPhone home indicator when installed. */
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Money and odometer figures always line up. */
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Receipt block: the app's signature. Dash-ruled like thermal paper. */
+.receipt {
+  border: 1px dashed var(--color-edge);
+  background: var(--color-card);
+}
+
+.receipt-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.4rem 0;
+}
+
+.receipt-rule {
+  border-top: 1px dashed var(--color-edge);
+}
+
+/* Thermal-paper tear line at the bottom of the receipt. */
+.receipt-tear {
+  height: 10px;
+  background: repeating-linear-gradient(
+    -45deg,
+    var(--color-card) 0 6px,
+    transparent 6px 12px
+  );
+}
+
+input,
+select,
+textarea {
+  color-scheme: dark;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-volt);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

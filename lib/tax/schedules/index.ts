@@ -1,0 +1,138 @@
+// Auto-generated static index of bundled tax schedules. Regenerate with:
+//   bash scripts/gen-schedule-index.sh
+import type { ScheduleJson } from "../types";
+import ca_ab_2025 from "./ca_ab_2025.json";
+import ca_bc_2025 from "./ca_bc_2025.json";
+import ca_federal_2025 from "./ca_federal_2025.json";
+import ca_mb_2025 from "./ca_mb_2025.json";
+import ca_nb_2025 from "./ca_nb_2025.json";
+import ca_nl_2025 from "./ca_nl_2025.json";
+import ca_ns_2025 from "./ca_ns_2025.json";
+import ca_nt_2025 from "./ca_nt_2025.json";
+import ca_nu_2025 from "./ca_nu_2025.json";
+import ca_on_2025 from "./ca_on_2025.json";
+import ca_pe_2025 from "./ca_pe_2025.json";
+import ca_qc_2025 from "./ca_qc_2025.json";
+import ca_sk_2025 from "./ca_sk_2025.json";
+import ca_yt_2025 from "./ca_yt_2025.json";
+import us_ak_2025 from "./us_ak_2025.json";
+import us_al_2025 from "./us_al_2025.json";
+import us_ar_2025 from "./us_ar_2025.json";
+import us_az_2025 from "./us_az_2025.json";
+import us_ca_2025 from "./us_ca_2025.json";
+import us_co_2025 from "./us_co_2025.json";
+import us_ct_2025 from "./us_ct_2025.json";
+import us_dc_2025 from "./us_dc_2025.json";
+import us_de_2025 from "./us_de_2025.json";
+import us_federal_2025 from "./us_federal_2025.json";
+import us_fl_2025 from "./us_fl_2025.json";
+import us_ga_2025 from "./us_ga_2025.json";
+import us_hi_2025 from "./us_hi_2025.json";
+import us_ia_2025 from "./us_ia_2025.json";
+import us_id_2025 from "./us_id_2025.json";
+import us_il_2025 from "./us_il_2025.json";
+import us_in_2025 from "./us_in_2025.json";
+import us_ks_2025 from "./us_ks_2025.json";
+import us_ky_2025 from "./us_ky_2025.json";
+import us_la_2025 from "./us_la_2025.json";
+import us_ma_2025 from "./us_ma_2025.json";
+import us_md_2025 from "./us_md_2025.json";
+import us_me_2025 from "./us_me_2025.json";
+import us_mi_2025 from "./us_mi_2025.json";
+import us_mn_2025 from "./us_mn_2025.json";
+import us_mo_2025 from "./us_mo_2025.json";
+import us_ms_2025 from "./us_ms_2025.json";
+import us_mt_2025 from "./us_mt_2025.json";
+import us_nc_2025 from "./us_nc_2025.json";
+import us_nd_2025 from "./us_nd_2025.json";
+import us_ne_2025 from "./us_ne_2025.json";
+import us_nh_2025 from "./us_nh_2025.json";
+import us_nj_2025 from "./us_nj_2025.json";
+import us_nm_2025 from "./us_nm_2025.json";
+import us_nv_2025 from "./us_nv_2025.json";
+import us_ny_2025 from "./us_ny_2025.json";
+import us_oh_2025 from "./us_oh_2025.json";
+import us_ok_2025 from "./us_ok_2025.json";
+import us_or_2025 from "./us_or_2025.json";
+import us_pa_2025 from "./us_pa_2025.json";
+import us_ri_2025 from "./us_ri_2025.json";
+import us_sc_2025 from "./us_sc_2025.json";
+import us_sd_2025 from "./us_sd_2025.json";
+import us_tn_2025 from "./us_tn_2025.json";
+import us_tx_2025 from "./us_tx_2025.json";
+import us_ut_2025 from "./us_ut_2025.json";
+import us_va_2025 from "./us_va_2025.json";
+import us_vt_2025 from "./us_vt_2025.json";
+import us_wa_2025 from "./us_wa_2025.json";
+import us_wi_2025 from "./us_wi_2025.json";
+import us_wv_2025 from "./us_wv_2025.json";
+import us_wy_2025 from "./us_wy_2025.json";
+
+export const SCHEDULES: Record<string, ScheduleJson> = {
+  ca_ab_2025: ca_ab_2025 as ScheduleJson,
+  ca_bc_2025: ca_bc_2025 as ScheduleJson,
+  ca_federal_2025: ca_federal_2025 as ScheduleJson,
+  ca_mb_2025: ca_mb_2025 as ScheduleJson,
+  ca_nb_2025: ca_nb_2025 as ScheduleJson,
+  ca_nl_2025: ca_nl_2025 as ScheduleJson,
+  ca_ns_2025: ca_ns_2025 as ScheduleJson,
+  ca_nt_2025: ca_nt_2025 as ScheduleJson,
+  ca_nu_2025: ca_nu_2025 as ScheduleJson,
+  ca_on_2025: ca_on_2025 as ScheduleJson,
+  ca_pe_2025: ca_pe_2025 as ScheduleJson,
+  ca_qc_2025: ca_qc_2025 as ScheduleJson,
+  ca_sk_2025: ca_sk_2025 as ScheduleJson,
+  ca_yt_2025: ca_yt_2025 as ScheduleJson,
+  us_ak_2025: us_ak_2025 as ScheduleJson,
+  us_al_2025: us_al_2025 as ScheduleJson,
+  us_ar_2025: us_ar_2025 as ScheduleJson,
+  us_az_2025: us_az_2025 as ScheduleJson,
+  us_ca_2025: us_ca_2025 as ScheduleJson,
+  us_co_2025: us_co_2025 as ScheduleJson,
+  us_ct_2025: us_ct_2025 as ScheduleJson,
+  us_dc_2025: us_dc_2025 as ScheduleJson,
+  us_de_2025: us_de_2025 as ScheduleJson,
+  us_federal_2025: us_federal_2025 as ScheduleJson,
+  us_fl_2025: us_fl_2025 as ScheduleJson,
+  us_ga_2025: us_ga_2025 as ScheduleJson,
+  us_hi_2025: us_hi_2025 as ScheduleJson,
+  us_ia_2025: us_ia_2025 as ScheduleJson,
+  us_id_2025: us_id_2025 as ScheduleJson,
+  us_il_2025: us_il_2025 as ScheduleJson,
+  us_in_2025: us_in_2025 as ScheduleJson,
+  us_ks_2025: us_ks_2025 as ScheduleJson,
+  us_ky_2025: us_ky_2025 as ScheduleJson,
+  us_la_2025: us_la_2025 as ScheduleJson,
+  us_ma_2025: us_ma_2025 as ScheduleJson,
+  us_md_2025: us_md_2025 as ScheduleJson,
+  us_me_2025: us_me_2025 as ScheduleJson,
+  us_mi_2025: us_mi_2025 as ScheduleJson,
+  us_mn_2025: us_mn_2025 as ScheduleJson,
+  us_mo_2025: us_mo_2025 as ScheduleJson,
+  us_ms_2025: us_ms_2025 as ScheduleJson,
+  us_mt_2025: us_mt_2025 as ScheduleJson,
+  us_nc_2025: us_nc_2025 as ScheduleJson,
+  us_nd_2025: us_nd_2025 as ScheduleJson,
+  us_ne_2025: us_ne_2025 as ScheduleJson,
+  us_nh_2025: us_nh_2025 as ScheduleJson,
+  us_nj_2025: us_nj_2025 as ScheduleJson,
+  us_nm_2025: us_nm_2025 as ScheduleJson,
+  us_nv_2025: us_nv_2025 as ScheduleJson,
+  us_ny_2025: us_ny_2025 as ScheduleJson,
+  us_oh_2025: us_oh_2025 as ScheduleJson,
+  us_ok_2025: us_ok_2025 as ScheduleJson,
+  us_or_2025: us_or_2025 as ScheduleJson,
+  us_pa_2025: us_pa_2025 as ScheduleJson,
+  us_ri_2025: us_ri_2025 as ScheduleJson,
+  us_sc_2025: us_sc_2025 as ScheduleJson,
+  us_sd_2025: us_sd_2025 as ScheduleJson,
+  us_tn_2025: us_tn_2025 as ScheduleJson,
+  us_tx_2025: us_tx_2025 as ScheduleJson,
+  us_ut_2025: us_ut_2025 as ScheduleJson,
+  us_va_2025: us_va_2025 as ScheduleJson,
+  us_vt_2025: us_vt_2025 as ScheduleJson,
+  us_wa_2025: us_wa_2025 as ScheduleJson,
+  us_wi_2025: us_wi_2025 as ScheduleJson,
+  us_wv_2025: us_wv_2025 as ScheduleJson,
+  us_wy_2025: us_wy_2025 as ScheduleJson,
+};

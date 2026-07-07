@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "NE",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Nebraska individual income tax, tax year 2025 (Nebraska Tax Calculation Schedule; top rate 5.20%, scheduled to fall further in later years). Single/MFS, Married-Joint, and Head-of-Household each use distinct bracket widths.",
+  "standardDeductions": {
+    "SINGLE": 8600.0,
+    "MARRIED_JOINT": 17200.0,
+    "MARRIED_SEPARATE": 8600.0,
+    "HEAD_OF_HOUSEHOLD": 12600.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,     "upper": 4030,  "rate": 0.0246 },
+      { "lower": 4030,  "upper": 24120, "rate": 0.0351 },
+      { "lower": 24120, "upper": 38870, "rate": 0.0501 },
+      { "lower": 38870, "upper": null,  "rate": 0.052 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,     "upper": 8040,  "rate": 0.0246 },
+      { "lower": 8040,  "upper": 48250, "rate": 0.0351 },
+      { "lower": 48250, "upper": 77730, "rate": 0.0501 },
+      { "lower": 77730, "upper": null,  "rate": 0.052 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,     "upper": 4030,  "rate": 0.0246 },
+      { "lower": 4030,  "upper": 24120, "rate": 0.0351 },
+      { "lower": 24120, "upper": 38870, "rate": 0.0501 },
+      { "lower": 38870, "upper": null,  "rate": 0.052 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,     "upper": 7510,  "rate": 0.0246 },
+      { "lower": 7510,  "upper": 38590, "rate": 0.0351 },
+      { "lower": 38590, "upper": 57630, "rate": 0.0501 },
+      { "lower": 57630, "upper": null,  "rate": 0.052 }
+    ]
+  }
+}

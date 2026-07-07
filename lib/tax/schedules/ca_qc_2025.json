@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "country": "CA",
+  "region": "QC",
+  "year": 2025,
+  "currency": "CAD",
+  "notes": "Québec provincial tax brackets, 2025 (Revenu Québec TP-1). QC has its own basic personal amount (~18,571 CAD for 2025). Note: QC residents file a separate provincial return, and federal tax is reduced by the Québec Abatement (16.5%) — that is NOT applied here.",
+  "standardDeductions": {
+    "SINGLE": 18571.0,
+    "MARRIED_JOINT": 18571.0,
+    "MARRIED_SEPARATE": 18571.0,
+    "HEAD_OF_HOUSEHOLD": 18571.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,       "upper": 53255,   "rate": 0.14 },
+      { "lower": 53255,   "upper": 106495,  "rate": 0.19 },
+      { "lower": 106495,  "upper": 129590,  "rate": 0.24 },
+      { "lower": 129590,  "upper": null,    "rate": 0.2575 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,       "upper": 53255,   "rate": 0.14 },
+      { "lower": 53255,   "upper": 106495,  "rate": 0.19 },
+      { "lower": 106495,  "upper": 129590,  "rate": 0.24 },
+      { "lower": 129590,  "upper": null,    "rate": 0.2575 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,       "upper": 53255,   "rate": 0.14 },
+      { "lower": 53255,   "upper": 106495,  "rate": 0.19 },
+      { "lower": 106495,  "upper": 129590,  "rate": 0.24 },
+      { "lower": 129590,  "upper": null,    "rate": 0.2575 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,       "upper": 53255,   "rate": 0.14 },
+      { "lower": 53255,   "upper": 106495,  "rate": 0.19 },
+      { "lower": 106495,  "upper": 129590,  "rate": 0.24 },
+      { "lower": 129590,  "upper": null,    "rate": 0.2575 }
+    ]
+  }
+}

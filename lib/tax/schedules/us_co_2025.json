@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "CO",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Colorado has a flat 4.40% individual income tax (constitutional flat rate; may be temporarily reduced via TABOR refund mechanism). No state-specific standard deduction — federal standard deduction flows through (matched here for simplicity).",
+  "standardDeductions": {
+    "SINGLE": 15000.0,
+    "MARRIED_JOINT": 30000.0,
+    "MARRIED_SEPARATE": 15000.0,
+    "HEAD_OF_HOUSEHOLD": 22500.0
+  },
+  "brackets": {
+    "SINGLE":            [ { "lower": 0, "upper": null, "rate": 0.044 } ],
+    "MARRIED_JOINT":     [ { "lower": 0, "upper": null, "rate": 0.044 } ],
+    "MARRIED_SEPARATE":  [ { "lower": 0, "upper": null, "rate": 0.044 } ],
+    "HEAD_OF_HOUSEHOLD": [ { "lower": 0, "upper": null, "rate": 0.044 } ]
+  }
+}

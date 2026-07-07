@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "country": "CA",
+  "region": "SK",
+  "year": 2025,
+  "currency": "CAD",
+  "notes": "Saskatchewan provincial tax brackets, 2025 (CRA T1 Saskatchewan). Three brackets with thresholds indexed for 2025. Basic personal amount used as the standard deduction proxy (~18,991 CAD for 2025).",
+  "standardDeductions": {
+    "SINGLE": 18991.0,
+    "MARRIED_JOINT": 18991.0,
+    "MARRIED_SEPARATE": 18991.0,
+    "HEAD_OF_HOUSEHOLD": 18991.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,       "upper": 53463,  "rate": 0.105 },
+      { "lower": 53463,   "upper": 152750, "rate": 0.125 },
+      { "lower": 152750,  "upper": null,   "rate": 0.145 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,       "upper": 53463,  "rate": 0.105 },
+      { "lower": 53463,   "upper": 152750, "rate": 0.125 },
+      { "lower": 152750,  "upper": null,   "rate": 0.145 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,       "upper": 53463,  "rate": 0.105 },
+      { "lower": 53463,   "upper": 152750, "rate": 0.125 },
+      { "lower": 152750,  "upper": null,   "rate": 0.145 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,       "upper": 53463,  "rate": 0.105 },
+      { "lower": 53463,   "upper": 152750, "rate": 0.125 },
+      { "lower": 152750,  "upper": null,   "rate": 0.145 }
+    ]
+  }
+}

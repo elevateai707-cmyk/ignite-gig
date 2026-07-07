@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "OK",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Oklahoma individual income tax, tax year 2025 (six-bracket graduated schedule, top rate 4.75%). Married-Joint and Head-of-Household share the wider schedule; single/MFS use the narrower schedule. Oklahoma also allows a $1,000 personal exemption per person (not modeled).",
+  "standardDeductions": {
+    "SINGLE": 6350.0,
+    "MARRIED_JOINT": 12700.0,
+    "MARRIED_SEPARATE": 6350.0,
+    "HEAD_OF_HOUSEHOLD": 9350.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,    "upper": 1000, "rate": 0.0025 },
+      { "lower": 1000, "upper": 2500, "rate": 0.0075 },
+      { "lower": 2500, "upper": 3750, "rate": 0.0175 },
+      { "lower": 3750, "upper": 4900, "rate": 0.0275 },
+      { "lower": 4900, "upper": 7200, "rate": 0.0375 },
+      { "lower": 7200, "upper": null, "rate": 0.0475 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,     "upper": 2000,  "rate": 0.0025 },
+      { "lower": 2000,  "upper": 5000,  "rate": 0.0075 },
+      { "lower": 5000,  "upper": 7500,  "rate": 0.0175 },
+      { "lower": 7500,  "upper": 9800,  "rate": 0.0275 },
+      { "lower": 9800,  "upper": 14400, "rate": 0.0375 },
+      { "lower": 14400, "upper": null,  "rate": 0.0475 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,    "upper": 1000, "rate": 0.0025 },
+      { "lower": 1000, "upper": 2500, "rate": 0.0075 },
+      { "lower": 2500, "upper": 3750, "rate": 0.0175 },
+      { "lower": 3750, "upper": 4900, "rate": 0.0275 },
+      { "lower": 4900, "upper": 7200, "rate": 0.0375 },
+      { "lower": 7200, "upper": null, "rate": 0.0475 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,     "upper": 2000,  "rate": 0.0025 },
+      { "lower": 2000,  "upper": 5000,  "rate": 0.0075 },
+      { "lower": 5000,  "upper": 7500,  "rate": 0.0175 },
+      { "lower": 7500,  "upper": 9800,  "rate": 0.0275 },
+      { "lower": 9800,  "upper": 14400, "rate": 0.0375 },
+      { "lower": 14400, "upper": null,  "rate": 0.0475 }
+    ]
+  }
+}

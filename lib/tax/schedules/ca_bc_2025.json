@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "country": "CA",
+  "region": "BC",
+  "year": 2025,
+  "currency": "CAD",
+  "notes": "British Columbia provincial tax brackets, 2025 (CRA T1 BC). Basic personal amount approximated as the standard deduction.",
+  "standardDeductions": {
+    "SINGLE": 12932.0,
+    "MARRIED_JOINT": 12932.0,
+    "MARRIED_SEPARATE": 12932.0,
+    "HEAD_OF_HOUSEHOLD": 12932.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,       "upper": 49279,   "rate": 0.0506 },
+      { "lower": 49279,   "upper": 98560,   "rate": 0.077 },
+      { "lower": 98560,   "upper": 113158,  "rate": 0.105 },
+      { "lower": 113158,  "upper": 137407,  "rate": 0.1229 },
+      { "lower": 137407,  "upper": 186306,  "rate": 0.147 },
+      { "lower": 186306,  "upper": 259829,  "rate": 0.168 },
+      { "lower": 259829,  "upper": null,    "rate": 0.205 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,       "upper": 49279,   "rate": 0.0506 },
+      { "lower": 49279,   "upper": 98560,   "rate": 0.077 },
+      { "lower": 98560,   "upper": 113158,  "rate": 0.105 },
+      { "lower": 113158,  "upper": 137407,  "rate": 0.1229 },
+      { "lower": 137407,  "upper": 186306,  "rate": 0.147 },
+      { "lower": 186306,  "upper": 259829,  "rate": 0.168 },
+      { "lower": 259829,  "upper": null,    "rate": 0.205 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,       "upper": 49279,   "rate": 0.0506 },
+      { "lower": 49279,   "upper": 98560,   "rate": 0.077 },
+      { "lower": 98560,   "upper": 113158,  "rate": 0.105 },
+      { "lower": 113158,  "upper": 137407,  "rate": 0.1229 },
+      { "lower": 137407,  "upper": 186306,  "rate": 0.147 },
+      { "lower": 186306,  "upper": 259829,  "rate": 0.168 },
+      { "lower": 259829,  "upper": null,    "rate": 0.205 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,       "upper": 49279,   "rate": 0.0506 },
+      { "lower": 49279,   "upper": 98560,   "rate": 0.077 },
+      { "lower": 98560,   "upper": 113158,  "rate": 0.105 },
+      { "lower": 113158,  "upper": 137407,  "rate": 0.1229 },
+      { "lower": 137407,  "upper": 186306,  "rate": 0.147 },
+      { "lower": 186306,  "upper": 259829,  "rate": 0.168 },
+      { "lower": 259829,  "upper": null,    "rate": 0.205 }
+    ]
+  }
+}

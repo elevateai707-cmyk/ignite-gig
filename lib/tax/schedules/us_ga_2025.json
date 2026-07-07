@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "GA",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Georgia adopted a flat individual income tax of 5.39% effective tax year 2025 (HB 1015 — accelerated rate cut from 5.49%). Standard deduction per Georgia DOR 2025 instructions.",
+  "standardDeductions": {
+    "SINGLE": 12000.0,
+    "MARRIED_JOINT": 24000.0,
+    "MARRIED_SEPARATE": 12000.0,
+    "HEAD_OF_HOUSEHOLD": 12000.0
+  },
+  "brackets": {
+    "SINGLE":            [ { "lower": 0, "upper": null, "rate": 0.0539 } ],
+    "MARRIED_JOINT":     [ { "lower": 0, "upper": null, "rate": 0.0539 } ],
+    "MARRIED_SEPARATE":  [ { "lower": 0, "upper": null, "rate": 0.0539 } ],
+    "HEAD_OF_HOUSEHOLD": [ { "lower": 0, "upper": null, "rate": 0.0539 } ]
+  }
+}

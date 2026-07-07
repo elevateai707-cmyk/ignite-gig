@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "country": "CA",
+  "region": "NT",
+  "year": 2025,
+  "currency": "CAD",
+  "notes": "Northwest Territories tax brackets, tax year 2025 (CRA T1). Basic personal amount (17,842 CAD) is approximated as the standard deduction. NT indexes brackets using the federal indexation factor.",
+  "standardDeductions": {
+    "SINGLE": 17842.0,
+    "MARRIED_JOINT": 17842.0,
+    "MARRIED_SEPARATE": 17842.0,
+    "HEAD_OF_HOUSEHOLD": 17842.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,       "upper": 51964,    "rate": 0.059 },
+      { "lower": 51964,   "upper": 103930,   "rate": 0.086 },
+      { "lower": 103930,  "upper": 168967,   "rate": 0.122 },
+      { "lower": 168967,  "upper": null,     "rate": 0.1405 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,       "upper": 51964,    "rate": 0.059 },
+      { "lower": 51964,   "upper": 103930,   "rate": 0.086 },
+      { "lower": 103930,  "upper": 168967,   "rate": 0.122 },
+      { "lower": 168967,  "upper": null,     "rate": 0.1405 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,       "upper": 51964,    "rate": 0.059 },
+      { "lower": 51964,   "upper": 103930,   "rate": 0.086 },
+      { "lower": 103930,  "upper": 168967,   "rate": 0.122 },
+      { "lower": 168967,  "upper": null,     "rate": 0.1405 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,       "upper": 51964,    "rate": 0.059 },
+      { "lower": 51964,   "upper": 103930,   "rate": 0.086 },
+      { "lower": 103930,  "upper": 168967,   "rate": 0.122 },
+      { "lower": 168967,  "upper": null,     "rate": 0.1405 }
+    ]
+  }
+}

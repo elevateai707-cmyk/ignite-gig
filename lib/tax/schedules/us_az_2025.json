@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "AZ",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Arizona has a flat 2.5% income tax (since 2023). Standard deduction matches federal: $15,000 single / $30,000 MFJ for 2025 (AZ DOR Form 140 instructions).",
+  "standardDeductions": {
+    "SINGLE": 15000.0,
+    "MARRIED_JOINT": 30000.0,
+    "MARRIED_SEPARATE": 15000.0,
+    "HEAD_OF_HOUSEHOLD": 22500.0
+  },
+  "brackets": {
+    "SINGLE":            [ { "lower": 0, "upper": null, "rate": 0.025 } ],
+    "MARRIED_JOINT":     [ { "lower": 0, "upper": null, "rate": 0.025 } ],
+    "MARRIED_SEPARATE":  [ { "lower": 0, "upper": null, "rate": 0.025 } ],
+    "HEAD_OF_HOUSEHOLD": [ { "lower": 0, "upper": null, "rate": 0.025 } ]
+  }
+}

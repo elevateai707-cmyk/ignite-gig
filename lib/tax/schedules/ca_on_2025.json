@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "country": "CA",
+  "region": "ON",
+  "year": 2025,
+  "currency": "CAD",
+  "notes": "Ontario provincial tax brackets, tax year 2025 (CRA T1 Ontario). Basic personal amount is approximated as the standard deduction. Excludes the Ontario surtax (calculated separately by CRA on tax owing >= 5,710 CAD).",
+  "standardDeductions": {
+    "SINGLE": 12747.0,
+    "MARRIED_JOINT": 12747.0,
+    "MARRIED_SEPARATE": 12747.0,
+    "HEAD_OF_HOUSEHOLD": 12747.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,       "upper": 52886,    "rate": 0.0505 },
+      { "lower": 52886,   "upper": 105775,   "rate": 0.0915 },
+      { "lower": 105775,  "upper": 150000,   "rate": 0.1116 },
+      { "lower": 150000,  "upper": 220000,   "rate": 0.1216 },
+      { "lower": 220000,  "upper": null,     "rate": 0.1316 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,       "upper": 52886,    "rate": 0.0505 },
+      { "lower": 52886,   "upper": 105775,   "rate": 0.0915 },
+      { "lower": 105775,  "upper": 150000,   "rate": 0.1116 },
+      { "lower": 150000,  "upper": 220000,   "rate": 0.1216 },
+      { "lower": 220000,  "upper": null,     "rate": 0.1316 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,       "upper": 52886,    "rate": 0.0505 },
+      { "lower": 52886,   "upper": 105775,   "rate": 0.0915 },
+      { "lower": 105775,  "upper": 150000,   "rate": 0.1116 },
+      { "lower": 150000,  "upper": 220000,   "rate": 0.1216 },
+      { "lower": 220000,  "upper": null,     "rate": 0.1316 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,       "upper": 52886,    "rate": 0.0505 },
+      { "lower": 52886,   "upper": 105775,   "rate": 0.0915 },
+      { "lower": 105775,  "upper": 150000,   "rate": 0.1116 },
+      { "lower": 150000,  "upper": 220000,   "rate": 0.1216 },
+      { "lower": 220000,  "upper": null,     "rate": 0.1316 }
+    ]
+  }
+}

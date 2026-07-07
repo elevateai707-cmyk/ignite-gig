@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "KY",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Kentucky has a flat 4.00% individual income tax for tax year 2025 (KY DOR Form 740 instructions). Standard deduction is 3,270 USD for 2025 (same for all filing statuses).",
+  "standardDeductions": {
+    "SINGLE": 3270.0,
+    "MARRIED_JOINT": 3270.0,
+    "MARRIED_SEPARATE": 3270.0,
+    "HEAD_OF_HOUSEHOLD": 3270.0
+  },
+  "brackets": {
+    "SINGLE":            [ { "lower": 0, "upper": null, "rate": 0.04 } ],
+    "MARRIED_JOINT":     [ { "lower": 0, "upper": null, "rate": 0.04 } ],
+    "MARRIED_SEPARATE":  [ { "lower": 0, "upper": null, "rate": 0.04 } ],
+    "HEAD_OF_HOUSEHOLD": [ { "lower": 0, "upper": null, "rate": 0.04 } ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "DC",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "District of Columbia individual income tax brackets, tax year 2025 (DC Office of Tax and Revenue). Same brackets for all filing statuses. DC conforms to the federal standard deduction (matched here).",
+  "standardDeductions": {
+    "SINGLE": 15000.0,
+    "MARRIED_JOINT": 30000.0,
+    "MARRIED_SEPARATE": 15000.0,
+    "HEAD_OF_HOUSEHOLD": 22500.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,        "upper": 10000,    "rate": 0.04 },
+      { "lower": 10000,    "upper": 40000,    "rate": 0.06 },
+      { "lower": 40000,    "upper": 60000,    "rate": 0.065 },
+      { "lower": 60000,    "upper": 250000,   "rate": 0.085 },
+      { "lower": 250000,   "upper": 500000,   "rate": 0.0925 },
+      { "lower": 500000,   "upper": 1000000,  "rate": 0.0975 },
+      { "lower": 1000000,  "upper": null,     "rate": 0.1075 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,        "upper": 10000,    "rate": 0.04 },
+      { "lower": 10000,    "upper": 40000,    "rate": 0.06 },
+      { "lower": 40000,    "upper": 60000,    "rate": 0.065 },
+      { "lower": 60000,    "upper": 250000,   "rate": 0.085 },
+      { "lower": 250000,   "upper": 500000,   "rate": 0.0925 },
+      { "lower": 500000,   "upper": 1000000,  "rate": 0.0975 },
+      { "lower": 1000000,  "upper": null,     "rate": 0.1075 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,        "upper": 10000,    "rate": 0.04 },
+      { "lower": 10000,    "upper": 40000,    "rate": 0.06 },
+      { "lower": 40000,    "upper": 60000,    "rate": 0.065 },
+      { "lower": 60000,    "upper": 250000,   "rate": 0.085 },
+      { "lower": 250000,   "upper": 500000,   "rate": 0.0925 },
+      { "lower": 500000,   "upper": 1000000,  "rate": 0.0975 },
+      { "lower": 1000000,  "upper": null,     "rate": 0.1075 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,        "upper": 10000,    "rate": 0.04 },
+      { "lower": 10000,    "upper": 40000,    "rate": 0.06 },
+      { "lower": 40000,    "upper": 60000,    "rate": 0.065 },
+      { "lower": 60000,    "upper": 250000,   "rate": 0.085 },
+      { "lower": 250000,   "upper": 500000,   "rate": 0.0925 },
+      { "lower": 500000,   "upper": 1000000,  "rate": 0.0975 },
+      { "lower": 1000000,  "upper": null,     "rate": 0.1075 }
+    ]
+  }
+}

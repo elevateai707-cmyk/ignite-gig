@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "WV",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "West Virginia individual income tax, tax year 2025 (rates lowered by SB2033; 2.22%-4.82%). Single/Married-Joint/Head-of-Household use Rate Schedule I; Married-Separate uses Rate Schedule II (half-width brackets). West Virginia has no standard deduction; it allows a 2,000 USD personal exemption per person (not modeled), so standardDeduction is 0.",
+  "standardDeductions": {
+    "SINGLE": 0.0,
+    "MARRIED_JOINT": 0.0,
+    "MARRIED_SEPARATE": 0.0,
+    "HEAD_OF_HOUSEHOLD": 0.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,     "upper": 10000, "rate": 0.0222 },
+      { "lower": 10000, "upper": 25000, "rate": 0.0296 },
+      { "lower": 25000, "upper": 40000, "rate": 0.0333 },
+      { "lower": 40000, "upper": 60000, "rate": 0.0444 },
+      { "lower": 60000, "upper": null,  "rate": 0.0482 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,     "upper": 10000, "rate": 0.0222 },
+      { "lower": 10000, "upper": 25000, "rate": 0.0296 },
+      { "lower": 25000, "upper": 40000, "rate": 0.0333 },
+      { "lower": 40000, "upper": 60000, "rate": 0.0444 },
+      { "lower": 60000, "upper": null,  "rate": 0.0482 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,     "upper": 5000,  "rate": 0.0222 },
+      { "lower": 5000,  "upper": 12500, "rate": 0.0296 },
+      { "lower": 12500, "upper": 20000, "rate": 0.0333 },
+      { "lower": 20000, "upper": 30000, "rate": 0.0444 },
+      { "lower": 30000, "upper": null,  "rate": 0.0482 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,     "upper": 10000, "rate": 0.0222 },
+      { "lower": 10000, "upper": 25000, "rate": 0.0296 },
+      { "lower": 25000, "upper": 40000, "rate": 0.0333 },
+      { "lower": 40000, "upper": 60000, "rate": 0.0444 },
+      { "lower": 60000, "upper": null,  "rate": 0.0482 }
+    ]
+  }
+}

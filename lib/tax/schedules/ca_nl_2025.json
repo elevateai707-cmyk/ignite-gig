@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "country": "CA",
+  "region": "NL",
+  "year": 2025,
+  "currency": "CAD",
+  "notes": "Newfoundland & Labrador provincial tax brackets, tax year 2025 (CRA T1 / NL Budget 2025-26 — unchanged from prior year). Basic personal amount (11,067 CAD) is approximated as the standard deduction. Excludes the NL low-income tax reduction (full elimination of provincial tax below ~22,527 CAD).",
+  "standardDeductions": {
+    "SINGLE": 11067.0,
+    "MARRIED_JOINT": 11067.0,
+    "MARRIED_SEPARATE": 11067.0,
+    "HEAD_OF_HOUSEHOLD": 11067.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,        "upper": 44192,    "rate": 0.087 },
+      { "lower": 44192,    "upper": 88382,    "rate": 0.145 },
+      { "lower": 88382,    "upper": 157792,   "rate": 0.158 },
+      { "lower": 157792,   "upper": 220910,   "rate": 0.178 },
+      { "lower": 220910,   "upper": 282214,   "rate": 0.198 },
+      { "lower": 282214,   "upper": 564429,   "rate": 0.208 },
+      { "lower": 564429,   "upper": 1128858,  "rate": 0.213 },
+      { "lower": 1128858,  "upper": null,     "rate": 0.218 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,        "upper": 44192,    "rate": 0.087 },
+      { "lower": 44192,    "upper": 88382,    "rate": 0.145 },
+      { "lower": 88382,    "upper": 157792,   "rate": 0.158 },
+      { "lower": 157792,   "upper": 220910,   "rate": 0.178 },
+      { "lower": 220910,   "upper": 282214,   "rate": 0.198 },
+      { "lower": 282214,   "upper": 564429,   "rate": 0.208 },
+      { "lower": 564429,   "upper": 1128858,  "rate": 0.213 },
+      { "lower": 1128858,  "upper": null,     "rate": 0.218 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,        "upper": 44192,    "rate": 0.087 },
+      { "lower": 44192,    "upper": 88382,    "rate": 0.145 },
+      { "lower": 88382,    "upper": 157792,   "rate": 0.158 },
+      { "lower": 157792,   "upper": 220910,   "rate": 0.178 },
+      { "lower": 220910,   "upper": 282214,   "rate": 0.198 },
+      { "lower": 282214,   "upper": 564429,   "rate": 0.208 },
+      { "lower": 564429,   "upper": 1128858,  "rate": 0.213 },
+      { "lower": 1128858,  "upper": null,     "rate": 0.218 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,        "upper": 44192,    "rate": 0.087 },
+      { "lower": 44192,    "upper": 88382,    "rate": 0.145 },
+      { "lower": 88382,    "upper": 157792,   "rate": 0.158 },
+      { "lower": 157792,   "upper": 220910,   "rate": 0.178 },
+      { "lower": 220910,   "upper": 282214,   "rate": 0.198 },
+      { "lower": 282214,   "upper": 564429,   "rate": 0.208 },
+      { "lower": 564429,   "upper": 1128858,  "rate": 0.213 },
+      { "lower": 1128858,  "upper": null,     "rate": 0.218 }
+    ]
+  }
+}

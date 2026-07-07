@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "UT",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Utah has a flat 4.5% individual income tax for tax year 2025 (lowered from 4.55%). Utah uses a phase-out 'taxpayer tax credit' rather than a standard deduction, so standardDeduction is 0 here; this slightly overstates tax for low-income filers.",
+  "standardDeductions": {
+    "SINGLE": 0.0,
+    "MARRIED_JOINT": 0.0,
+    "MARRIED_SEPARATE": 0.0,
+    "HEAD_OF_HOUSEHOLD": 0.0
+  },
+  "brackets": {
+    "SINGLE":            [ { "lower": 0, "upper": null, "rate": 0.045 } ],
+    "MARRIED_JOINT":     [ { "lower": 0, "upper": null, "rate": 0.045 } ],
+    "MARRIED_SEPARATE":  [ { "lower": 0, "upper": null, "rate": 0.045 } ],
+    "HEAD_OF_HOUSEHOLD": [ { "lower": 0, "upper": null, "rate": 0.045 } ]
+  }
+}

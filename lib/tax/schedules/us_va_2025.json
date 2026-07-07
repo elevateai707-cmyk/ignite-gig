@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "VA",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Virginia individual income tax brackets, tax year 2025. Virginia uses the same brackets for all filing statuses (top 5.75% rate begins at just 17,000 USD). Standard deduction is 8,500 USD single / 17,000 USD married-joint.",
+  "standardDeductions": {
+    "SINGLE": 8500.0,
+    "MARRIED_JOINT": 17000.0,
+    "MARRIED_SEPARATE": 8500.0,
+    "HEAD_OF_HOUSEHOLD": 8500.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,     "upper": 3000,  "rate": 0.02 },
+      { "lower": 3000,  "upper": 5000,  "rate": 0.03 },
+      { "lower": 5000,  "upper": 17000, "rate": 0.05 },
+      { "lower": 17000, "upper": null,  "rate": 0.0575 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,     "upper": 3000,  "rate": 0.02 },
+      { "lower": 3000,  "upper": 5000,  "rate": 0.03 },
+      { "lower": 5000,  "upper": 17000, "rate": 0.05 },
+      { "lower": 17000, "upper": null,  "rate": 0.0575 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,     "upper": 3000,  "rate": 0.02 },
+      { "lower": 3000,  "upper": 5000,  "rate": 0.03 },
+      { "lower": 5000,  "upper": 17000, "rate": 0.05 },
+      { "lower": 17000, "upper": null,  "rate": 0.0575 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,     "upper": 3000,  "rate": 0.02 },
+      { "lower": 3000,  "upper": 5000,  "rate": 0.03 },
+      { "lower": 5000,  "upper": 17000, "rate": 0.05 },
+      { "lower": 17000, "upper": null,  "rate": 0.0575 }
+    ]
+  }
+}

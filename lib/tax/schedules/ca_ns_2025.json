@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "country": "CA",
+  "region": "NS",
+  "year": 2025,
+  "currency": "CAD",
+  "notes": "Nova Scotia provincial tax brackets, 2025 (CRA T1 Nova Scotia). Five-bracket schedule. Basic personal amount used as the standard deduction proxy (~8,744 CAD; supplemental amount up to 11,894 for income under 25k is not modeled).",
+  "standardDeductions": {
+    "SINGLE": 8744.0,
+    "MARRIED_JOINT": 8744.0,
+    "MARRIED_SEPARATE": 8744.0,
+    "HEAD_OF_HOUSEHOLD": 8744.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,       "upper": 29590,   "rate": 0.0879 },
+      { "lower": 29590,   "upper": 59180,   "rate": 0.1495 },
+      { "lower": 59180,   "upper": 93000,   "rate": 0.1667 },
+      { "lower": 93000,   "upper": 150000,  "rate": 0.175 },
+      { "lower": 150000,  "upper": null,    "rate": 0.21 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,       "upper": 29590,   "rate": 0.0879 },
+      { "lower": 29590,   "upper": 59180,   "rate": 0.1495 },
+      { "lower": 59180,   "upper": 93000,   "rate": 0.1667 },
+      { "lower": 93000,   "upper": 150000,  "rate": 0.175 },
+      { "lower": 150000,  "upper": null,    "rate": 0.21 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,       "upper": 29590,   "rate": 0.0879 },
+      { "lower": 29590,   "upper": 59180,   "rate": 0.1495 },
+      { "lower": 59180,   "upper": 93000,   "rate": 0.1667 },
+      { "lower": 93000,   "upper": 150000,  "rate": 0.175 },
+      { "lower": 150000,  "upper": null,    "rate": 0.21 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,       "upper": 29590,   "rate": 0.0879 },
+      { "lower": 29590,   "upper": 59180,   "rate": 0.1495 },
+      { "lower": 59180,   "upper": 93000,   "rate": 0.1667 },
+      { "lower": 93000,   "upper": 150000,  "rate": 0.175 },
+      { "lower": 150000,  "upper": null,    "rate": 0.21 }
+    ]
+  }
+}

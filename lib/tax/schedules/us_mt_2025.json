@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "MT",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Montana ordinary-income tax, tax year 2025 (two-rate schedule). Montana taxable income starts from federal taxable income, so the federal standard deduction is reflected here. Net long-term capital gains receive preferential 3.0%/4.1% rates (not modeled).",
+  "standardDeductions": {
+    "SINGLE": 15000.0,
+    "MARRIED_JOINT": 30000.0,
+    "MARRIED_SEPARATE": 15000.0,
+    "HEAD_OF_HOUSEHOLD": 22500.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,     "upper": 21100, "rate": 0.047 },
+      { "lower": 21100, "upper": null,  "rate": 0.059 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,     "upper": 42200, "rate": 0.047 },
+      { "lower": 42200, "upper": null,  "rate": 0.059 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,     "upper": 21100, "rate": 0.047 },
+      { "lower": 21100, "upper": null,  "rate": 0.059 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,     "upper": 31700, "rate": 0.047 },
+      { "lower": 31700, "upper": null,  "rate": 0.059 }
+    ]
+  }
+}

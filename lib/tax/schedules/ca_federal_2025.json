@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "country": "CA",
+  "year": 2025,
+  "currency": "CAD",
+  "notes": "Canada federal income tax brackets, tax year 2025 (CRA indexed thresholds). Basic personal amount is approximated as the standard deduction. Provincial brackets stack on top — Phase 3.5 adds per-province files.",
+  "standardDeductions": {
+    "SINGLE": 16129.0,
+    "MARRIED_JOINT": 16129.0,
+    "MARRIED_SEPARATE": 16129.0,
+    "HEAD_OF_HOUSEHOLD": 16129.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,       "upper": 57375,    "rate": 0.15 },
+      { "lower": 57375,   "upper": 114750,   "rate": 0.205 },
+      { "lower": 114750,  "upper": 177882,   "rate": 0.26 },
+      { "lower": 177882,  "upper": 253414,   "rate": 0.29 },
+      { "lower": 253414,  "upper": null,     "rate": 0.33 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,       "upper": 57375,    "rate": 0.15 },
+      { "lower": 57375,   "upper": 114750,   "rate": 0.205 },
+      { "lower": 114750,  "upper": 177882,   "rate": 0.26 },
+      { "lower": 177882,  "upper": 253414,   "rate": 0.29 },
+      { "lower": 253414,  "upper": null,     "rate": 0.33 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,       "upper": 57375,    "rate": 0.15 },
+      { "lower": 57375,   "upper": 114750,   "rate": 0.205 },
+      { "lower": 114750,  "upper": 177882,   "rate": 0.26 },
+      { "lower": 177882,  "upper": 253414,   "rate": 0.29 },
+      { "lower": 253414,  "upper": null,     "rate": 0.33 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,       "upper": 57375,    "rate": 0.15 },
+      { "lower": 57375,   "upper": 114750,   "rate": 0.205 },
+      { "lower": 114750,  "upper": 177882,   "rate": 0.26 },
+      { "lower": 177882,  "upper": 253414,   "rate": 0.29 },
+      { "lower": 253414,  "upper": null,     "rate": 0.33 }
+    ]
+  }
+}

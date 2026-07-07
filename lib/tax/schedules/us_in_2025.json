@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "IN",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Indiana has a flat individual income tax, lowered to 3.00% for tax year 2025 (Indiana DOR). Indiana has no standard deduction (it uses personal/dependent exemptions, not modeled here), so standardDeduction is 0; the federal standard deduction still reduces federal taxable income elsewhere.",
+  "standardDeductions": {
+    "SINGLE": 0.0,
+    "MARRIED_JOINT": 0.0,
+    "MARRIED_SEPARATE": 0.0,
+    "HEAD_OF_HOUSEHOLD": 0.0
+  },
+  "brackets": {
+    "SINGLE":            [ { "lower": 0, "upper": null, "rate": 0.03 } ],
+    "MARRIED_JOINT":     [ { "lower": 0, "upper": null, "rate": 0.03 } ],
+    "MARRIED_SEPARATE":  [ { "lower": 0, "upper": null, "rate": 0.03 } ],
+    "HEAD_OF_HOUSEHOLD": [ { "lower": 0, "upper": null, "rate": 0.03 } ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "CA",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "California state income tax brackets, tax year 2025 (FTB Schedule X — Single / Married Filing Separately; Schedule Y — Married Joint; Schedule Z — Head of Household). Standard deductions per FTB 2025.",
+  "standardDeductions": {
+    "SINGLE": 5540.0,
+    "MARRIED_JOINT": 11080.0,
+    "MARRIED_SEPARATE": 5540.0,
+    "HEAD_OF_HOUSEHOLD": 11080.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,        "upper": 10756,    "rate": 0.01 },
+      { "lower": 10756,    "upper": 25499,    "rate": 0.02 },
+      { "lower": 25499,    "upper": 40245,    "rate": 0.04 },
+      { "lower": 40245,    "upper": 55866,    "rate": 0.06 },
+      { "lower": 55866,    "upper": 70606,    "rate": 0.08 },
+      { "lower": 70606,    "upper": 360659,   "rate": 0.093 },
+      { "lower": 360659,   "upper": 432787,   "rate": 0.103 },
+      { "lower": 432787,   "upper": 721314,   "rate": 0.113 },
+      { "lower": 721314,   "upper": null,     "rate": 0.123 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,        "upper": 21512,    "rate": 0.01 },
+      { "lower": 21512,    "upper": 50998,    "rate": 0.02 },
+      { "lower": 50998,    "upper": 80490,    "rate": 0.04 },
+      { "lower": 80490,    "upper": 111732,   "rate": 0.06 },
+      { "lower": 111732,   "upper": 141212,   "rate": 0.08 },
+      { "lower": 141212,   "upper": 721318,   "rate": 0.093 },
+      { "lower": 721318,   "upper": 865574,   "rate": 0.103 },
+      { "lower": 865574,   "upper": 1442628,  "rate": 0.113 },
+      { "lower": 1442628,  "upper": null,     "rate": 0.123 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,        "upper": 10756,    "rate": 0.01 },
+      { "lower": 10756,    "upper": 25499,    "rate": 0.02 },
+      { "lower": 25499,    "upper": 40245,    "rate": 0.04 },
+      { "lower": 40245,    "upper": 55866,    "rate": 0.06 },
+      { "lower": 55866,    "upper": 70606,    "rate": 0.08 },
+      { "lower": 70606,    "upper": 360659,   "rate": 0.093 },
+      { "lower": 360659,   "upper": 432787,   "rate": 0.103 },
+      { "lower": 432787,   "upper": 721314,   "rate": 0.113 },
+      { "lower": 721314,   "upper": null,     "rate": 0.123 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,        "upper": 21527,    "rate": 0.01 },
+      { "lower": 21527,    "upper": 51000,    "rate": 0.02 },
+      { "lower": 51000,    "upper": 65744,    "rate": 0.04 },
+      { "lower": 65744,    "upper": 81364,    "rate": 0.06 },
+      { "lower": 81364,    "upper": 96107,    "rate": 0.08 },
+      { "lower": 96107,    "upper": 490493,   "rate": 0.093 },
+      { "lower": 490493,   "upper": 588593,   "rate": 0.103 },
+      { "lower": 588593,   "upper": 980987,   "rate": 0.113 },
+      { "lower": 980987,   "upper": null,     "rate": 0.123 }
+    ]
+  }
+}

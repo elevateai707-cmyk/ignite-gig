@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "TN",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Tennessee has no state tax on earned income (the Hall income tax on interest and dividends was fully repealed effective tax year 2021).",
+  "standardDeductions": { "SINGLE": 0.0, "MARRIED_JOINT": 0.0, "MARRIED_SEPARATE": 0.0, "HEAD_OF_HOUSEHOLD": 0.0 },
+  "brackets": {
+    "SINGLE":            [ { "lower": 0, "upper": null, "rate": 0.0 } ],
+    "MARRIED_JOINT":     [ { "lower": 0, "upper": null, "rate": 0.0 } ],
+    "MARRIED_SEPARATE":  [ { "lower": 0, "upper": null, "rate": 0.0 } ],
+    "HEAD_OF_HOUSEHOLD": [ { "lower": 0, "upper": null, "rate": 0.0 } ]
+  }
+}

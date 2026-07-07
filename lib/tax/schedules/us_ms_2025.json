@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "MS",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Mississippi has a flat 4.4% individual income tax for tax year 2025, applied only to taxable income above 10,000 USD (first 10,000 is exempt — modeled as a 0% bracket). Standard deductions per MS DOR; the additional personal exemption (6,000 single / 12,000 joint) is not modeled.",
+  "standardDeductions": {
+    "SINGLE": 2300.0,
+    "MARRIED_JOINT": 4600.0,
+    "MARRIED_SEPARATE": 2300.0,
+    "HEAD_OF_HOUSEHOLD": 3400.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,     "upper": 10000, "rate": 0.0 },
+      { "lower": 10000, "upper": null,  "rate": 0.044 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,     "upper": 10000, "rate": 0.0 },
+      { "lower": 10000, "upper": null,  "rate": 0.044 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,     "upper": 10000, "rate": 0.0 },
+      { "lower": 10000, "upper": null,  "rate": 0.044 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,     "upper": 10000, "rate": 0.0 },
+      { "lower": 10000, "upper": null,  "rate": 0.044 }
+    ]
+  }
+}

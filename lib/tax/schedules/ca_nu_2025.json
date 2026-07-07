@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "country": "CA",
+  "region": "NU",
+  "year": 2025,
+  "currency": "CAD",
+  "notes": "Nunavut tax brackets, tax year 2025 (CRA T1). Basic personal amount (19,274 CAD) is approximated as the standard deduction. NU indexes brackets using the federal indexation factor.",
+  "standardDeductions": {
+    "SINGLE": 19274.0,
+    "MARRIED_JOINT": 19274.0,
+    "MARRIED_SEPARATE": 19274.0,
+    "HEAD_OF_HOUSEHOLD": 19274.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,       "upper": 54707,    "rate": 0.04 },
+      { "lower": 54707,   "upper": 109413,   "rate": 0.07 },
+      { "lower": 109413,  "upper": 177881,   "rate": 0.09 },
+      { "lower": 177881,  "upper": null,     "rate": 0.115 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,       "upper": 54707,    "rate": 0.04 },
+      { "lower": 54707,   "upper": 109413,   "rate": 0.07 },
+      { "lower": 109413,  "upper": 177881,   "rate": 0.09 },
+      { "lower": 177881,  "upper": null,     "rate": 0.115 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,       "upper": 54707,    "rate": 0.04 },
+      { "lower": 54707,   "upper": 109413,   "rate": 0.07 },
+      { "lower": 109413,  "upper": 177881,   "rate": 0.09 },
+      { "lower": 177881,  "upper": null,     "rate": 0.115 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,       "upper": 54707,    "rate": 0.04 },
+      { "lower": 54707,   "upper": 109413,   "rate": 0.07 },
+      { "lower": 109413,  "upper": 177881,   "rate": 0.09 },
+      { "lower": 177881,  "upper": null,     "rate": 0.115 }
+    ]
+  }
+}

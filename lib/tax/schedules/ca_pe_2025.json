@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "country": "CA",
+  "region": "PE",
+  "year": 2025,
+  "currency": "CAD",
+  "notes": "Prince Edward Island provincial tax brackets, tax year 2025 (CRA T1 / PEI 2025 Budget). Basic personal amount (14,650 CAD) is approximated as the standard deduction. The 200,000 CAD top bracket was introduced for 2026 and is not present for 2025.",
+  "standardDeductions": {
+    "SINGLE": 14650.0,
+    "MARRIED_JOINT": 14650.0,
+    "MARRIED_SEPARATE": 14650.0,
+    "HEAD_OF_HOUSEHOLD": 14650.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,       "upper": 33328,    "rate": 0.095 },
+      { "lower": 33328,   "upper": 64656,    "rate": 0.1347 },
+      { "lower": 64656,   "upper": 105000,   "rate": 0.166 },
+      { "lower": 105000,  "upper": 140000,   "rate": 0.1762 },
+      { "lower": 140000,  "upper": null,     "rate": 0.19 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,       "upper": 33328,    "rate": 0.095 },
+      { "lower": 33328,   "upper": 64656,    "rate": 0.1347 },
+      { "lower": 64656,   "upper": 105000,   "rate": 0.166 },
+      { "lower": 105000,  "upper": 140000,   "rate": 0.1762 },
+      { "lower": 140000,  "upper": null,     "rate": 0.19 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,       "upper": 33328,    "rate": 0.095 },
+      { "lower": 33328,   "upper": 64656,    "rate": 0.1347 },
+      { "lower": 64656,   "upper": 105000,   "rate": 0.166 },
+      { "lower": 105000,  "upper": 140000,   "rate": 0.1762 },
+      { "lower": 140000,  "upper": null,     "rate": 0.19 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,       "upper": 33328,    "rate": 0.095 },
+      { "lower": 33328,   "upper": 64656,    "rate": 0.1347 },
+      { "lower": 64656,   "upper": 105000,   "rate": 0.166 },
+      { "lower": 105000,  "upper": 140000,   "rate": 0.1762 },
+      { "lower": 140000,  "upper": null,     "rate": 0.19 }
+    ]
+  }
+}

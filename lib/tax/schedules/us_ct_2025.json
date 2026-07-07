@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "CT",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Connecticut individual income tax, tax year 2025 (seven-bracket schedule, 2%-6.99%). Connecticut has no standard deduction; the values here are the MAXIMUM personal exemption per filing status, which phases out as CT AGI rises (phase-out, the 2% phase-out add-back, and tax recapture for high earners are not modeled). Single/MFS, Head-of-Household, and Married-Joint use distinct bracket widths.",
+  "standardDeductions": {
+    "SINGLE": 15000.0,
+    "MARRIED_JOINT": 24000.0,
+    "MARRIED_SEPARATE": 12000.0,
+    "HEAD_OF_HOUSEHOLD": 19000.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,      "upper": 10000,  "rate": 0.02 },
+      { "lower": 10000,  "upper": 50000,  "rate": 0.045 },
+      { "lower": 50000,  "upper": 100000, "rate": 0.055 },
+      { "lower": 100000, "upper": 200000, "rate": 0.06 },
+      { "lower": 200000, "upper": 250000, "rate": 0.065 },
+      { "lower": 250000, "upper": 500000, "rate": 0.069 },
+      { "lower": 500000, "upper": null,   "rate": 0.0699 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,       "upper": 20000,   "rate": 0.02 },
+      { "lower": 20000,   "upper": 100000,  "rate": 0.045 },
+      { "lower": 100000,  "upper": 200000,  "rate": 0.055 },
+      { "lower": 200000,  "upper": 400000,  "rate": 0.06 },
+      { "lower": 400000,  "upper": 500000,  "rate": 0.065 },
+      { "lower": 500000,  "upper": 1000000, "rate": 0.069 },
+      { "lower": 1000000, "upper": null,    "rate": 0.0699 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,      "upper": 10000,  "rate": 0.02 },
+      { "lower": 10000,  "upper": 50000,  "rate": 0.045 },
+      { "lower": 50000,  "upper": 100000, "rate": 0.055 },
+      { "lower": 100000, "upper": 200000, "rate": 0.06 },
+      { "lower": 200000, "upper": 250000, "rate": 0.065 },
+      { "lower": 250000, "upper": 500000, "rate": 0.069 },
+      { "lower": 500000, "upper": null,   "rate": 0.0699 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,      "upper": 16000,  "rate": 0.02 },
+      { "lower": 16000,  "upper": 80000,  "rate": 0.045 },
+      { "lower": 80000,  "upper": 160000, "rate": 0.055 },
+      { "lower": 160000, "upper": 320000, "rate": 0.06 },
+      { "lower": 320000, "upper": 400000, "rate": 0.065 },
+      { "lower": 400000, "upper": 800000, "rate": 0.069 },
+      { "lower": 800000, "upper": null,   "rate": 0.0699 }
+    ]
+  }
+}

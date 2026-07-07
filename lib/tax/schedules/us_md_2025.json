@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "MD",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Maryland individual income tax brackets, tax year 2025 (two new top brackets added effective 2025). Single/Married-Separate use Schedule I; Married-Joint/Head-of-Household use Schedule II. Excludes the mandatory local county/Baltimore City income tax (2.25%-3.30%).",
+  "standardDeductions": {
+    "SINGLE": 3350.0,
+    "MARRIED_JOINT": 6700.0,
+    "MARRIED_SEPARATE": 3350.0,
+    "HEAD_OF_HOUSEHOLD": 6700.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,        "upper": 1000,      "rate": 0.02 },
+      { "lower": 1000,     "upper": 2000,      "rate": 0.03 },
+      { "lower": 2000,     "upper": 3000,      "rate": 0.04 },
+      { "lower": 3000,     "upper": 100000,    "rate": 0.0475 },
+      { "lower": 100000,   "upper": 125000,    "rate": 0.05 },
+      { "lower": 125000,   "upper": 150000,    "rate": 0.0525 },
+      { "lower": 150000,   "upper": 250000,    "rate": 0.055 },
+      { "lower": 250000,   "upper": 500000,    "rate": 0.0575 },
+      { "lower": 500000,   "upper": 1000000,   "rate": 0.0625 },
+      { "lower": 1000000,  "upper": null,      "rate": 0.065 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,        "upper": 1000,      "rate": 0.02 },
+      { "lower": 1000,     "upper": 2000,      "rate": 0.03 },
+      { "lower": 2000,     "upper": 3000,      "rate": 0.04 },
+      { "lower": 3000,     "upper": 150000,    "rate": 0.0475 },
+      { "lower": 150000,   "upper": 175000,    "rate": 0.05 },
+      { "lower": 175000,   "upper": 225000,    "rate": 0.0525 },
+      { "lower": 225000,   "upper": 300000,    "rate": 0.055 },
+      { "lower": 300000,   "upper": 600000,    "rate": 0.0575 },
+      { "lower": 600000,   "upper": 1200000,   "rate": 0.0625 },
+      { "lower": 1200000,  "upper": null,      "rate": 0.065 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,        "upper": 1000,      "rate": 0.02 },
+      { "lower": 1000,     "upper": 2000,      "rate": 0.03 },
+      { "lower": 2000,     "upper": 3000,      "rate": 0.04 },
+      { "lower": 3000,     "upper": 100000,    "rate": 0.0475 },
+      { "lower": 100000,   "upper": 125000,    "rate": 0.05 },
+      { "lower": 125000,   "upper": 150000,    "rate": 0.0525 },
+      { "lower": 150000,   "upper": 250000,    "rate": 0.055 },
+      { "lower": 250000,   "upper": 500000,    "rate": 0.0575 },
+      { "lower": 500000,   "upper": 1000000,   "rate": 0.0625 },
+      { "lower": 1000000,  "upper": null,      "rate": 0.065 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,        "upper": 1000,      "rate": 0.02 },
+      { "lower": 1000,     "upper": 2000,      "rate": 0.03 },
+      { "lower": 2000,     "upper": 3000,      "rate": 0.04 },
+      { "lower": 3000,     "upper": 150000,    "rate": 0.0475 },
+      { "lower": 150000,   "upper": 175000,    "rate": 0.05 },
+      { "lower": 175000,   "upper": 225000,    "rate": 0.0525 },
+      { "lower": 225000,   "upper": 300000,    "rate": 0.055 },
+      { "lower": 300000,   "upper": 600000,    "rate": 0.0575 },
+      { "lower": 600000,   "upper": 1200000,   "rate": 0.0625 },
+      { "lower": 1200000,  "upper": null,      "rate": 0.065 }
+    ]
+  }
+}

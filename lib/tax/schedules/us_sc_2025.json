@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "SC",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "South Carolina individual income tax, tax year 2025 (top rate reduced to 6%; brackets inflation-indexed). Same brackets for all filing statuses; first 3,560 USD is exempt (0%). SC taxable income starts from federal taxable income, so the federal standard deduction is reflected here.",
+  "standardDeductions": {
+    "SINGLE": 15000.0,
+    "MARRIED_JOINT": 30000.0,
+    "MARRIED_SEPARATE": 15000.0,
+    "HEAD_OF_HOUSEHOLD": 22500.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,     "upper": 3560,  "rate": 0.0 },
+      { "lower": 3560,  "upper": 17830, "rate": 0.03 },
+      { "lower": 17830, "upper": null,  "rate": 0.06 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,     "upper": 3560,  "rate": 0.0 },
+      { "lower": 3560,  "upper": 17830, "rate": 0.03 },
+      { "lower": 17830, "upper": null,  "rate": 0.06 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,     "upper": 3560,  "rate": 0.0 },
+      { "lower": 3560,  "upper": 17830, "rate": 0.03 },
+      { "lower": 17830, "upper": null,  "rate": 0.06 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,     "upper": 3560,  "rate": 0.0 },
+      { "lower": 3560,  "upper": 17830, "rate": 0.03 },
+      { "lower": 17830, "upper": null,  "rate": 0.06 }
+    ]
+  }
+}

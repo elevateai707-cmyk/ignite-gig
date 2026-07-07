@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "country": "CA",
+  "region": "NB",
+  "year": 2025,
+  "currency": "CAD",
+  "notes": "New Brunswick provincial tax brackets, 2025 (CRA T1 New Brunswick). Four-bracket schedule indexed for 2025. Basic personal amount used as the standard deduction proxy (~13,396 CAD).",
+  "standardDeductions": {
+    "SINGLE": 13396.0,
+    "MARRIED_JOINT": 13396.0,
+    "MARRIED_SEPARATE": 13396.0,
+    "HEAD_OF_HOUSEHOLD": 13396.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,       "upper": 51306,  "rate": 0.094 },
+      { "lower": 51306,   "upper": 102614, "rate": 0.14 },
+      { "lower": 102614,  "upper": 190060, "rate": 0.16 },
+      { "lower": 190060,  "upper": null,   "rate": 0.195 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,       "upper": 51306,  "rate": 0.094 },
+      { "lower": 51306,   "upper": 102614, "rate": 0.14 },
+      { "lower": 102614,  "upper": 190060, "rate": 0.16 },
+      { "lower": 190060,  "upper": null,   "rate": 0.195 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,       "upper": 51306,  "rate": 0.094 },
+      { "lower": 51306,   "upper": 102614, "rate": 0.14 },
+      { "lower": 102614,  "upper": 190060, "rate": 0.16 },
+      { "lower": 190060,  "upper": null,   "rate": 0.195 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,       "upper": 51306,  "rate": 0.094 },
+      { "lower": 51306,   "upper": 102614, "rate": 0.14 },
+      { "lower": 102614,  "upper": 190060, "rate": 0.16 },
+      { "lower": 190060,  "upper": null,   "rate": 0.195 }
+    ]
+  }
+}

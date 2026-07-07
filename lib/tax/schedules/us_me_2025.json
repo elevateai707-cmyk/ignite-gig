@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "ME",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "Maine individual income tax, tax year 2025 (Maine Revenue Services rate schedules). Single/MFS, Head-of-Household, and Married-Joint each use distinct bracket widths. Maine also has a 5,150 USD personal exemption (not modeled).",
+  "standardDeductions": {
+    "SINGLE": 15000.0,
+    "MARRIED_JOINT": 30000.0,
+    "MARRIED_SEPARATE": 15000.0,
+    "HEAD_OF_HOUSEHOLD": 22500.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,     "upper": 26800, "rate": 0.058 },
+      { "lower": 26800, "upper": 63450, "rate": 0.0675 },
+      { "lower": 63450, "upper": null,  "rate": 0.0715 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,      "upper": 53600,  "rate": 0.058 },
+      { "lower": 53600,  "upper": 126900, "rate": 0.0675 },
+      { "lower": 126900, "upper": null,   "rate": 0.0715 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,     "upper": 26800, "rate": 0.058 },
+      { "lower": 26800, "upper": 63450, "rate": 0.0675 },
+      { "lower": 63450, "upper": null,  "rate": 0.0715 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,     "upper": 40200, "rate": 0.058 },
+      { "lower": 40200, "upper": 95150, "rate": 0.0675 },
+      { "lower": 95150, "upper": null,  "rate": 0.0715 }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "country": "US",
+  "region": "NY",
+  "year": 2025,
+  "currency": "USD",
+  "notes": "New York State income tax brackets, tax year 2025 (NY DTF IT-201 instructions). Standard deductions per NY Form IT-201. Does not include NYC supplemental income tax.",
+  "standardDeductions": {
+    "SINGLE": 8000.0,
+    "MARRIED_JOINT": 16050.0,
+    "MARRIED_SEPARATE": 8000.0,
+    "HEAD_OF_HOUSEHOLD": 11200.0
+  },
+  "brackets": {
+    "SINGLE": [
+      { "lower": 0,        "upper": 8500,     "rate": 0.04 },
+      { "lower": 8500,     "upper": 11700,    "rate": 0.045 },
+      { "lower": 11700,    "upper": 13900,    "rate": 0.0525 },
+      { "lower": 13900,    "upper": 80650,    "rate": 0.055 },
+      { "lower": 80650,    "upper": 215400,   "rate": 0.06 },
+      { "lower": 215400,   "upper": 1077550,  "rate": 0.0685 },
+      { "lower": 1077550,  "upper": 5000000,  "rate": 0.0965 },
+      { "lower": 5000000,  "upper": 25000000, "rate": 0.103 },
+      { "lower": 25000000, "upper": null,     "rate": 0.109 }
+    ],
+    "MARRIED_JOINT": [
+      { "lower": 0,        "upper": 17150,    "rate": 0.04 },
+      { "lower": 17150,    "upper": 23600,    "rate": 0.045 },
+      { "lower": 23600,    "upper": 27900,    "rate": 0.0525 },
+      { "lower": 27900,    "upper": 161550,   "rate": 0.055 },
+      { "lower": 161550,   "upper": 323200,   "rate": 0.06 },
+      { "lower": 323200,   "upper": 2155350,  "rate": 0.0685 },
+      { "lower": 2155350,  "upper": 5000000,  "rate": 0.0965 },
+      { "lower": 5000000,  "upper": 25000000, "rate": 0.103 },
+      { "lower": 25000000, "upper": null,     "rate": 0.109 }
+    ],
+    "MARRIED_SEPARATE": [
+      { "lower": 0,        "upper": 8500,     "rate": 0.04 },
+      { "lower": 8500,     "upper": 11700,    "rate": 0.045 },
+      { "lower": 11700,    "upper": 13900,    "rate": 0.0525 },
+      { "lower": 13900,    "upper": 80650,    "rate": 0.055 },
+      { "lower": 80650,    "upper": 215400,   "rate": 0.06 },
+      { "lower": 215400,   "upper": 1077550,  "rate": 0.0685 },
+      { "lower": 1077550,  "upper": 5000000,  "rate": 0.0965 },
+      { "lower": 5000000,  "upper": 25000000, "rate": 0.103 },
+      { "lower": 25000000, "upper": null,     "rate": 0.109 }
+    ],
+    "HEAD_OF_HOUSEHOLD": [
+      { "lower": 0,        "upper": 12800,    "rate": 0.04 },
+      { "lower": 12800,    "upper": 17650,    "rate": 0.045 },
+      { "lower": 17650,    "upper": 20900,    "rate": 0.0525 },
+      { "lower": 20900,    "upper": 107650,   "rate": 0.055 },
+      { "lower": 107650,   "upper": 269300,   "rate": 0.06 },
+      { "lower": 269300,   "upper": 1616450,  "rate": 0.0685 },
+      { "lower": 1616450,  "upper": 5000000,  "rate": 0.0965 },
+      { "lower": 5000000,  "upper": 25000000, "rate": 0.103 },
+      { "lower": 25000000, "upper": null,     "rate": 0.109 }
+    ]
+  }
+}
