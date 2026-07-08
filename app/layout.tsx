@@ -40,6 +40,9 @@ export const metadata: Metadata = {
     icon: "/icons/icon-192.png",
     apple: "/icons/apple-touch-icon.png",
   },
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "Ignite GIG — Gig-Worker Tax Tracker",
     description:
@@ -48,6 +51,40 @@ export const metadata: Metadata = {
     siteName: "Ignite GIG",
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ignite GIG — Gig-Worker Tax Tracker",
+    description:
+      "Track gig income, expenses, and mileage. See your tax set-aside in real time. Canada + USA. Free, private, offline.",
+  },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  name: "Ignite GIG",
+  url: APP_URL,
+  description:
+    "Track gig income, expenses, and mileage to see how much to set aside for taxes against CRA T2125 or IRS Schedule C — free, private, works offline.",
+  applicationCategory: "FinanceApplication",
+  operatingSystem: "Any",
+  browserRequirements: "Requires a modern browser with JavaScript enabled.",
+  offers: {
+    "@type": "Offer",
+    price: "0",
+    priceCurrency: "USD",
+  },
+  featureList: [
+    "Real-time tax set-aside estimate",
+    "Income and payout tracking",
+    "Business expense tracking by CRA/IRS category",
+    "Mileage tracking with CRA and IRS deduction rates",
+    "CSV export for accountants",
+    "Offline-capable installable PWA",
+    "Canada and USA tax support",
+  ],
+  isAccessibleForFree: true,
+  countriesSupported: ["CA", "US"],
 };
 
 export const viewport: Viewport = {
@@ -63,6 +100,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body
         className={`${barlow.variable} ${barlowCondensed.variable} ${jetbrains.variable} min-h-dvh`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <StoreProvider>{children}</StoreProvider>
         <RegisterSw />
       </body>
